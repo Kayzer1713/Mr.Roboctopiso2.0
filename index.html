@@ -59,9 +59,24 @@
         document.getElementById('info-box').textContent =  event.feature.getProperty('ville');
       });
 
-      map.data.addListener('click', function() {     
-        map.setZoom(15);    
+      map.data.addListener('click', function(event) {     
+        map.setCenter({lat: event.feature.getProperty('lat'), //centre sur le marqueur cliqué
+                      lng: event.feature.getProperty('lng')});   
+        var info = new google.maps.InfoWindow({
+          content: afficherContent(event), //appelle la fonction pour ce qu'on vetut afficher
+          position: {lat: event.feature.getProperty('lat') + 0.02, //indique la position de l'info
+                     lng: event.feature.getProperty('lng')},
+          zIndex: 1
+        });
+        info.open(map);//affiche les informations
       });   
+
+      var afficherContent = function(event){ //récupère les infos à afficher les informations qu'on aura choisies
+        var content =  "<p>Nom: " + event.feature.getProperty('enseigne') + "</p>" +
+                       "<p>Adresse: " + event.feature.getProperty('adrnumvoie') + "</p>" +
+                       "<p>Ville: " + event.feature.getProperty('ville') + "</p>";
+        return content;
+      }
     }
     //ajout cinéma avec tte propriété (formulaire)
     //graphe sur le nb de cinéma par ville est pas département
