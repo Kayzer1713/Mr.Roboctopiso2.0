@@ -12,14 +12,29 @@
   <div id="info-box"></div>
 
   <script type="text/javascript">
+
+/*
+Edit msg:
+derniere maj;
+-les marker ne s'afffiche pas sur la map de paris pour des raisons inconnues
+bug à corriger à deux dimanche matin
+-les test se font donc sur les deux markers en australie que j'ai crée manuellement
+tu peux changer les lattitudes et longitude pour les mettres sur
+Paris si tu veux ce sera plus simple pour travailler sans avoir à changer à chaque fois le centre de la map
+-les formulaires sont pas finis j'ai eu le temps de faire que quelque test (voir exo 15 des correction jquery sur le cour de tw3)
+-aucun pb pour ajouter des données à priori je sais comment on va faire c'est très simple
+-graphe et stats a faire dimanche aprem/soir
+- no panic my friend cyuka blyat rush B ez win
+*/
+
     // initialisation des variables
-    var maMap;
+    var map;
     var cheminJson = "https://api.myjson.com/bins/brvit";
     var cheminIcon = "sources/film-reel.png";
     var markers = [];
     var mapOptions = {  
       zoom: 10,
-      //minZoom: 11,
+      minZoom: 11,
       center: {
         lat: -25.363882,
         lng: 131.044922
@@ -34,7 +49,12 @@
     // initialisation de la map
     function initMap() {
 
-      maMap = new google.maps.Map(document.getElementById("map"), mapOptions);
+      map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+      // listener pour fermet l'infowindow au click extérieur
+      map.addListener('click', function() {
+        fenetreInfo.close();
+      });
 
       var fenetreInfo = new google.maps.InfoWindow();
 
@@ -45,7 +65,7 @@
         },
         icon: cheminIcon,
         title: "bifleMole!",
-        map: maMap
+        map: map
       });
 
       var testMarker2 = new google.maps.Marker({
@@ -55,10 +75,16 @@
         },
         icon: cheminIcon,
         title: "kamoulox!",
-        map: maMap
+        map: map
       });
-      addListenerToMmarker(testMarker2, "bloblbolbolbo");
-      addListenerToMmarker(testMarker, "blablalbalblabla");
+      addListenerToMmarker(testMarker, "<form>" +
+        "<input type=\"text\" value=\"blsdfjsq\"></input>" +
+        "<input type=\"submit\" value=\"Valider\"</input>" +
+        "</form>");
+      addListenerToMmarker(testMarker2, "<form>" +
+        "<input type=\"text\" value=\"blsdfjsq\"></input>" +
+        "<input type=\"submit\" value=\"Valider\"</input>" +
+        "</form>");
       // lecture et parçage du json
       $.getJSON(cheminJson, function(data) {
         // création de tout les markers depuis le json
@@ -71,7 +97,7 @@
               lat: latLng.lat(),
               lng: latLng.lng()
             },
-            map: maMap,
+            map: map,
             icon: cheminIcon,
             title: cinema.properties.enseigne
           });
@@ -98,18 +124,15 @@
         });
         // affichage de la fenetreInfo
         marker.addListener('click', function() {
-          maMap.panTo(new google.maps.LatLng(marker.getPosition().lat(), marker.getPosition().lng())); // change le centre de la map
-          smoothZoom(maMap, 16, maMap.getZoom());
+          map.panTo(new google.maps.LatLng(marker.getPosition().lat(), marker.getPosition().lng())); // change le centre de la map
+          //smoothZoom(map, 16, map.getZoom()); // commenter juste pour mon chromebook qui à du mal mais tu peux décommenter pour faire plus style et commenter la ligne en dessous
+          map.setZoom(16);
           fenetreInfo.setContent(text);
           fenetreInfo.open(map, marker);
         });
       }
     }
 
-    // listener pour fermet l'infowindow au click extérieur
-    google.maps.event.addListener(map, "click", function(event) {
-      fenetreInfo.close();
-    });
 
     // fonction pour gérer le zoom sur les markers
     function smoothZoom(map, max, cnt) {
@@ -122,7 +145,7 @@
         });
         setTimeout(function() {
           map.setZoom(cnt)
-        }, 70);
+        }, 20);
       }
     }
   </script>
