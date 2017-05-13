@@ -4,85 +4,130 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="initial-scale=1.0">
-  <style type="text/css">
-    html,
-    body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-
-    #map {
-      height: 100%;
-    }
-
-    #info-box {
-      background-color: white;
-      border: 1px solid black;
-      bottom: 30px;
-      height: 20px;
-      padding: 10px;
-      position: absolute;
-      left: 30px;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="stylebof.css">
 </head>
 
 <body>
   <div id="map"></div>
-  <div id="info-box">?</div>
+  <div id="info-box"></div>
+
   <script type="text/javascript">
-    var map;
+    // initialisation des variables
+    var maMap;
+    var cheminJson = "https://api.myjson.com/bins/brvit";
+    var cheminIcon = "sources/film-reel.png";
+    var markers = [];
+    var mapOptions = {  
+      zoom: 10,
+      //minZoom: 11,
+      center: {
+        lat: -25.363882,
+        lng: 131.044922
+      },
+      // center: {
+      //   lat: 48.866667,
+      //   lng: 2.333333
+      // },
+      disableDefaultUI: true
+    };
 
-    function initMap() { 
-      map = new google.maps.Map(document.getElementById('map'), {  
-        zoom: 10,
-          center: {
-          lat: 48.866667,
-          lng: 2.333333
-        } 
+    // initialisation de la map
+    function initMap() {
+
+      maMap = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+      var fenetreInfo = new google.maps.InfoWindow();
+
+      var testMarker = new google.maps.Marker({
+        position: {
+          lat: -25.363882,
+          lng: 131.044922
+        },
+        icon: cheminIcon,
+        title: "bifleMole!",
+        map: maMap
       });
 
-      map.data.loadGeoJson('https://api.myjson.com/bins/brvit'); 
-      map.data.setStyle(function(feature) {     
-        return /** @type {google.maps.Data.StyleOptions} */ ({      
-          fillColor: feature.getProperty('blue'),
-                strokeWeight: 1     
-        });    
+      var testMarker2 = new google.maps.Marker({
+        position: {
+          lat: -25.383882,
+          lng: 131.064922
+        },
+        icon: cheminIcon,
+        title: "kamoulox!",
+        map: maMap
       });
+      addListenerToMmarker(testMarker2, "bloblbolbolbo");
+      addListenerToMmarker(testMarker, "blablalbalblabla");
+      // lecture et parçage du json
+      $.getJSON(cheminJson, function(data) {
+        // création de tout les markers depuis le json
+        $.each(data.features, function(index, cinema) {
+          // création de l'objet latlng pour la position du Marker
+          var latLng = new google.maps.LatLng(cinema.properties.lat, cinema.geometry.lng);
+          // création du Marker
+          markers[index] = new google.maps.Marker({
+            position: {
+              lat: latLng.lat(),
+              lng: latLng.lng()
+            },
+            map: maMap,
+            icon: cheminIcon,
+            title: cinema.properties.enseigne
+          });
 
-      map.data.addListener('mouseover', function(event) {
-        map.data.revertStyle();     
-        map.data.overrideStyle(event.feature, {
-          strokeWeight: 8
-        });     
-        document.getElementById('info-box').textContent =  event.feature.getProperty('ville');
-      });
+          var content = "<p>Nom: " + cinema.properties.enseigne + "</p>" +
+            "<p>Adresse: " + cinema.properties.adrnumvoie + "</p>" +
+            "<p>Ville: " + cinema.properties.ville + "</p>";
 
-      map.data.addListener('click', function(event) {     
-        map.setCenter({lat: event.feature.getProperty('lat'), //centre sur le marqueur cliqué
-                      lng: event.feature.getProperty('lng')});   
-        var info = new google.maps.InfoWindow({
-          content: afficherContent(event), //appelle la fonction pour ce qu'on vetut afficher
-          position: {lat: event.feature.getProperty('lat') + 0.02, //indique la position de l'info
-                     lng: event.feature.getProperty('lng')},
-          zIndex: 1
+          // ajout des listeners pour le marker
+          addListenerToMmarker(markers[index], content);
+
+        }); // fin de la création des markers
+
+      }); // fin du paçage du json
+
+      function addListenerToMmarker(marker, text) {
+        // affichage du nom du marker dans l'info-box
+        marker.addListener('mouseover', function() {
+          document.getElementById('info-box').textContent =  marker.getTitle();
         });
-        info.open(map);//affiche les informations
-      });   
-
-      var afficherContent = function(event){ //récupère les infos à afficher les informations qu'on aura choisies
-        var content =  "<p>Nom: " + event.feature.getProperty('enseigne') + "</p>" +
-                       "<p>Adresse: " + event.feature.getProperty('adrnumvoie') + "</p>" +
-                       "<p>Ville: " + event.feature.getProperty('ville') + "</p>";
-        return content;
+        // affichage du nom du marker dans l'info-box
+        marker.addListener('mouseout', function() {
+          document.getElementById('info-box').textContent =  '';
+        });
+        // affichage de la fenetreInfo
+        marker.addListener('click', function() {
+          maMap.panTo(new google.maps.LatLng(marker.getPosition().lat(), marker.getPosition().lng())); // change le centre de la map
+          smoothZoom(maMap, 16, maMap.getZoom());
+          fenetreInfo.setContent(text);
+          fenetreInfo.open(map, marker);
+        });
       }
     }
-    //ajout cinéma avec tte propriété (formulaire)
-    //graphe sur le nb de cinéma par ville est pas département
+
+    // listener pour fermet l'infowindow au click extérieur
+    google.maps.event.addListener(map, "click", function(event) {
+      fenetreInfo.close();
+    });
+
+    // fonction pour gérer le zoom sur les markers
+    function smoothZoom(map, max, cnt) {
+      if (cnt >= max) {
+        return;
+      } else {
+        z = google.maps.event.addListener(map, 'zoom_changed', function(event) {
+          google.maps.event.removeListener(z);
+          smoothZoom(map, max, cnt + 1);
+        });
+        setTimeout(function() {
+          map.setZoom(cnt)
+        }, 70);
+      }
+    }
   </script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADQEU2wl1189-XtBtihLzSy4OnpKS7yY0&callback=initMap">
-  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADQEU2wl1189-XtBtihLzSy4OnpKS7yY0&callback=initMap"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 
 </html>
