@@ -8,6 +8,9 @@
 </head>
 
 <body>
+  <button onClick="changeData()">Change Data</button>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="Donut3D.js"></script>
   <div id="map"></div>
   <div id="info-box"></div>
 
@@ -88,6 +91,11 @@
 
         }); // fin de la création des markers
 
+        //pour le graphe
+        var svg = d3.select("body").append("svg").attr("width",700).attr("height",300);
+
+        svg.append("g").attr("id","salesDonut");
+        Donut3D.draw("salesDonut", villeData(), 150, 150, 130, 100, 30, 0.4);
       }); // fin du paçage du json
 
       function addListenerToCinema(cinema) {
@@ -133,11 +141,64 @@
         }, 80);
       }
     }
+
+
+
+
+
+    function villeData(){
+      var tab = [{label: cinemas[0].ville, value: 1, color:'#3366CC'}];
+
+      var j;
+      for (var i = 1; i < cinemas.length; i++){
+        j = 0
+        var v = cinemas[i].ville;
+        while (j < tab.length && v != tab[j].label){
+          j++;
+        }
+        if (j==tab.length){
+          tab[j]=({label: v, value: 1, color: getRandomColor()});
+        }else{
+          tab[j].value += 1;
+        }
+      }
+
+      for (var k = 0; k < tab.length; k++){
+        var cpt = 0;
+        if(tab[k].value == 1){
+          cpt ++;
+          tab[k].value = 0;
+        }
+      }
+      tab[tab.length] = {label: 'autres', value: cpt, color: getRandomColor()};
+      return tab;
+    }
+
+    function getRandomColor() {
+      var letters = '0123456789ABCDEF';
+      var color = '#';
+      for (var i = 0; i < 6; i++ ) {
+          color += letters[Math.floor(Math.random() * 16)];
+      }
+      return color;
+    }
+
+    function changeData(){
+      var a = randomData();
+      console.log(a[1]);
+    	Donut3D.transition("salesDonut", a, 130, 100, 30, 0.4);
+    	Donut3D.transition("quotesDonut", randomData(), 130, 100, 30, 0);
+    }
+
+    function randomData(){
+    	return salesData.map(function(d){
+    		return {label:d.label, value:1000*Math.random(), color:d.color};});
+    }
   </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADQEU2wl1189-XtBtihLzSy4OnpKS7yY0&callback=initMap"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <div>Icons made by <a href="http://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
-      title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  <!-- <div>Icons made by <a href="http://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+      title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 </body>
 
 </html>

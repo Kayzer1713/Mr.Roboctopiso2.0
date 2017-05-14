@@ -1,0 +1,6190 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 9ME",
+        "noauto": 202.0,
+        "enseigne": "GAUMONT OPERA  FRANCAIS",
+        "adrnumvoie": "38 BD DES ITALIENS",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75009.0,
+        "adrcommune": "PARIS",
+        "adr": "38 BD DES ITALIENS,75009 PARIS",
+        "lat": 48.8711927,
+        "lng": 2.3346174
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3346174, 48.8711927]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 3ME",
+        "noauto": 531.0,
+        "enseigne": "MK2 BEAUBOURG",
+        "adrnumvoie": "50 RUE RAMBUTEAU",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75003.0,
+        "adrcommune": "PARIS",
+        "adr": "50 RUE RAMBUTEAU,75003 PARIS",
+        "lat": 48.8616152,
+        "lng": 2.352209
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.352209, 48.8616152]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 17ME",
+        "noauto": 612.0,
+        "enseigne": "UGC MAILLOT",
+        "adrnumvoie": "PALAIS CONGRES PL PORTE MAILLOT",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75017.0,
+        "adrcommune": "PARIS",
+        "adr": "PALAIS CONGRES PL PORTE MAILLOT,75017 PARIS",
+        "lat": 48.877851,
+        "lng": 2.284353
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.284353, 48.877851]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 802.0,
+        "enseigne": "UGC ROTONDE",
+        "adrnumvoie": "103 BD DU MONTPARNASSE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "103 BD DU MONTPARNASSE,75006 PARIS",
+        "lat": 48.8424423,
+        "lng": 2.3289494
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3289494, 48.8424423]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 14ME",
+        "noauto": 821.0,
+        "enseigne": "PARNASSIEN",
+        "adrnumvoie": "98 BD DU MONTPARNASSE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75014.0,
+        "adrcommune": "PARIS",
+        "adr": "98 BD DU MONTPARNASSE,75014 PARIS",
+        "lat": 48.8424776,
+        "lng": 2.3276962
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3276962, 48.8424776]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 2ME",
+        "noauto": 1314.0,
+        "enseigne": "LE BEVERLEY",
+        "adrnumvoie": "14 R VILLE NEUVE 31 BD BONNE NLL",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75002.0,
+        "adrcommune": "PARIS",
+        "adr": "14 R VILLE NEUVE 31 BD BONNE NLL,75002 PARIS",
+        "lat": 48.8675641,
+        "lng": 2.34399
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.34399, 48.8675641]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 1ER",
+        "noauto": 1671.0,
+        "enseigne": "FORUM ORIENT EXPRESS",
+        "adrnumvoie": "1 RUE DE L'ORIENT-EXPRESS",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75001.0,
+        "adrcommune": "PARIS",
+        "adr": "1 RUE DE L'ORIENT-EXPRESS,75001 PARIS",
+        "lat": 48.8640493,
+        "lng": 2.3310526
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3310526, 48.8640493]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 17ME",
+        "noauto": 2543.0,
+        "enseigne": "MAC MAHON",
+        "adrnumvoie": "5\/7 AV MAC MAHON",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75017.0,
+        "adrcommune": "PARIS",
+        "adr": "5\/7 AV MAC MAHON,75017 PARIS",
+        "lat": 48.8756069,
+        "lng": 2.2945077
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2945077, 48.8756069]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 17ME",
+        "noauto": 3211.0,
+        "enseigne": "LE CINEMA DES CINEASTES",
+        "adrnumvoie": "7 AVENUE DE CLICHY",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75017.0,
+        "adrcommune": "PARIS",
+        "adr": "7 AVENUE DE CLICHY,75017 PARIS",
+        "lat": 48.8843547,
+        "lng": 2.3269237
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3269237, 48.8843547]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 18ME",
+        "noauto": 3222.0,
+        "enseigne": "PATHE WEPLER",
+        "adrnumvoie": "132 -140 BOULEVARD DE CLICHY",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75018.0,
+        "adrcommune": "PARIS",
+        "adr": "132 -140 BOULEVARD DE CLICHY,75018 PARIS",
+        "lat": 48.8839014,
+        "lng": 2.3280342
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3280342, 48.8839014]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 19ME",
+        "noauto": 4713.0,
+        "enseigne": "BORIS VIAN GRANDE HALLE",
+        "adrnumvoie": "211 AV JEAN JAURES",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75019.0,
+        "adrcommune": "PARIS",
+        "adr": "211 AV JEAN JAURES,75019 PARIS",
+        "lat": 48.8866647,
+        "lng": 2.3844281
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3844281, 48.8866647]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 15ME",
+        "noauto": 7231.0,
+        "enseigne": "CHAPLIN SAINT LAMBERT",
+        "adrnumvoie": "6 RUE PECLET",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75015.0,
+        "adrcommune": "PARIS",
+        "adr": "6 RUE PECLET,75015 PARIS",
+        "lat": 48.8430665,
+        "lng": 2.2986268
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2986268, 48.8430665]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 15ME",
+        "noauto": 7394.0,
+        "enseigne": "GAUMONT CONVENTION",
+        "adrnumvoie": "27 A 31 RUE ALAIN CHARTIER",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75015.0,
+        "adrcommune": "PARIS",
+        "adr": "27 A 31 RUE ALAIN CHARTIER,75015 PARIS",
+        "lat": 48.8376352,
+        "lng": 2.2964164
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2964164, 48.8376352]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 14ME",
+        "noauto": 8143.0,
+        "enseigne": "MISTRAL",
+        "adrnumvoie": "70 AV DU GENERAL LECLERC",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75014.0,
+        "adrcommune": "PARIS",
+        "adr": "70 AV DU GENERAL LECLERC,75014 PARIS",
+        "lat": 48.8296119,
+        "lng": 2.3284094
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3284094, 48.8296119]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 8291.0,
+        "enseigne": "L ARLEQUIN PANORAMA",
+        "adrnumvoie": "76 RUE DE RENNES",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "76 RUE DE RENNES,75006 PARIS",
+        "lat": 48.8511065,
+        "lng": 2.3306463
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3306463, 48.8511065]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 5ME",
+        "noauto": 8422.0,
+        "enseigne": "LE CHAMPO",
+        "adrnumvoie": "51 RUE DES ECOLES",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75005.0,
+        "adrcommune": "PARIS",
+        "adr": "51 RUE DES ECOLES,75005 PARIS",
+        "lat": 48.8499358,
+        "lng": 2.3432299
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3432299, 48.8499358]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 5ME",
+        "noauto": 8514.0,
+        "enseigne": "EPEE DE BOIS",
+        "adrnumvoie": "100 RUE MOUFFETARD",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75005.0,
+        "adrcommune": "PARIS",
+        "adr": "100 RUE MOUFFETARD,75005 PARIS",
+        "lat": 48.8413898,
+        "lng": 2.3496302
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3496302, 48.8413898]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 13ME",
+        "noauto": 8661.0,
+        "enseigne": "ESCURIAL",
+        "adrnumvoie": "11 BD PORT ROYAL",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75013.0,
+        "adrcommune": "PARIS",
+        "adr": "11 BD PORT ROYAL,75013 PARIS",
+        "lat": 48.836835,
+        "lng": 2.3497096
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3497096, 48.836835]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 5ME",
+        "noauto": 9200.0,
+        "enseigne": "GRAND AUDITORIUM",
+        "adrnumvoie": "20 RUE DE POISSY",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75005.0,
+        "adrcommune": "PARIS",
+        "adr": "20 RUE DE POISSY,75005 PARIS",
+        "lat": 48.8483841,
+        "lng": 2.3519882
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3519882, 48.8483841]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ARCUEIL",
+        "noauto": 22634.0,
+        "enseigne": "JEAN VILAR",
+        "adrnumvoie": "1 RUE PAUL SIGNAC",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94110.0,
+        "adrcommune": "ARCUEIL",
+        "adr": "1 RUE PAUL SIGNAC,94110 ARCUEIL",
+        "lat": 48.801535,
+        "lng": 2.3314099
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3314099, 48.801535]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BALLANCOURT-SUR-ESSONNE",
+        "noauto": 37350.0,
+        "enseigne": "CINE TOILE",
+        "adrnumvoie": "2 RUE DES COLOMBES",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91610.0,
+        "adrcommune": "BALLANCOURT-SUR-ESSONNE",
+        "adr": "2 RUE DES COLOMBES,91610 BALLANCOURT-SUR-ESSONNE",
+        "lat": 48.5287881,
+        "lng": 2.388387
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.388387, 48.5287881]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BEYNES",
+        "noauto": 54292.0,
+        "enseigne": "LA BARBACANE",
+        "adrnumvoie": "PLACE DU 8 MAI 1945",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78650.0,
+        "adrcommune": "BEYNES",
+        "adr": "PLACE DU 8 MAI 1945,78650 BEYNES",
+        "lat": 48.855911,
+        "lng": 1.8753182
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.8753182, 48.855911]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BEZONS",
+        "noauto": 54692.0,
+        "enseigne": "THEATRE PAUL ELUARD",
+        "adrnumvoie": "162 RUE MAURICE BERTEAUX",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95870.0,
+        "adrcommune": "BEZONS",
+        "adr": "162 RUE MAURICE BERTEAUX,95870 BEZONS",
+        "lat": 48.9311637,
+        "lng": 2.2072574
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2072574, 48.9311637]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BOBIGNY",
+        "noauto": 59031.0,
+        "enseigne": "MAGIC CINEMA",
+        "adrnumvoie": "RUE DU CHEMIN VERT",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93000.0,
+        "adrcommune": "BOBIGNY",
+        "adr": "RUE DU CHEMIN VERT,93000 BOBIGNY",
+        "lat": 48.905972,
+        "lng": 2.44899
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.44899, 48.905972]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BOIS-COLOMBES",
+        "noauto": 59604.0,
+        "enseigne": "JEAN RENOIR",
+        "adrnumvoie": "RUE DU GENERAL LECLERC",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92270.0,
+        "adrcommune": "BOIS COLOMBES",
+        "adr": "RUE DU GENERAL LECLERC,92270 BOIS COLOMBES",
+        "lat": 48.9161151,
+        "lng": 2.2679339
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2679339, 48.9161151]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BOISSY-SAINT-LEGER",
+        "noauto": 60942.0,
+        "enseigne": "LE FORUM",
+        "adrnumvoie": "PLACE DU FORUM",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94470.0,
+        "adrcommune": "BOISSY SAINT LEGER",
+        "adr": "PLACE DU FORUM,94470 BOISSY SAINT LEGER",
+        "lat": 48.752924,
+        "lng": 2.501529
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.501529, 48.752924]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BONNEUIL-SUR-MARNE",
+        "noauto": 62121.0,
+        "enseigne": "GERARD PHILIPE",
+        "adrnumvoie": "2 RUE PABLO NERUDA",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94380.0,
+        "adrcommune": "BONNEUIL SUR MARNE",
+        "adr": "2 RUE PABLO NERUDA,94380 BONNEUIL SUR MARNE",
+        "lat": 48.7738972,
+        "lng": 2.4865779
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4865779, 48.7738972]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BOULOGNE-BILLANCOURT",
+        "noauto": 66923.0,
+        "enseigne": "PATHE",
+        "adrnumvoie": "26 RUE LE CORBUSIER",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92100.0,
+        "adrcommune": "BOULOGNE-BILLANCOURT",
+        "adr": "26 RUE LE CORBUSIER,92100 BOULOGNE-BILLANCOURT",
+        "lat": 48.8377,
+        "lng": 2.2397967
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2397967, 48.8377]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LE BOURGET",
+        "noauto": 68114.0,
+        "enseigne": "LE CINEMA",
+        "adrnumvoie": "10 AVENUE FRANCIS DE PRESSENSE",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93350.0,
+        "adrcommune": "LE BOURGET",
+        "adr": "10 AVENUE FRANCIS DE PRESSENSE,93350 LE BOURGET",
+        "lat": 48.9323351,
+        "lng": 2.4247362
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4247362, 48.9323351]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BOUSSY-SAINT-ANTOINE",
+        "noauto": 69641.0,
+        "enseigne": "BUXY",
+        "adrnumvoie": "CENTRE COMMERCIAL VAL D'YERRES 2",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91800.0,
+        "adrcommune": "BOUSSY-ST-ANTOINE",
+        "adr": "CENTRE COMMERCIAL VAL D'YERRES 2,91800 BOUSSY-ST-ANTOINE",
+        "lat": 48.683059,
+        "lng": 2.534617
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.534617, 48.683059]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CHATOU",
+        "noauto": 106262.0,
+        "enseigne": "LOUIS JOUVET",
+        "adrnumvoie": "3 PLACE MAURICE BERTEAUX",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78400.0,
+        "adrcommune": "CHATOU",
+        "adr": "3 PLACE MAURICE BERTEAUX,78400 CHATOU",
+        "lat": 48.8868636,
+        "lng": 2.1563117
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1563117, 48.8868636]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CHELLES",
+        "noauto": 108774.0,
+        "enseigne": "COSMOS",
+        "adrnumvoie": "22 AV DE LA RESISTANCE",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77500.0,
+        "adrcommune": "CHELLES",
+        "adr": "22 AV DE LA RESISTANCE,77500 CHELLES",
+        "lat": 48.8778283,
+        "lng": 2.5863034
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5863034, 48.8778283]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LE CHESNAY",
+        "noauto": 110263.0,
+        "enseigne": "STUDIO A",
+        "adrnumvoie": "CENTRE COMMERCIAL PARLY II",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78150.0,
+        "adrcommune": "LE CHESNAY",
+        "adr": "CENTRE COMMERCIAL PARLY II,78150 LE CHESNAY",
+        "lat": 48.8299183,
+        "lng": 2.1202518
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1202518, 48.8299183]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CHEVILLY-LARUE",
+        "noauto": 110761.0,
+        "enseigne": "SALLE ANDRE MALRAUX",
+        "adrnumvoie": "102 AV DU GENERAL DE GAULLE",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94550.0,
+        "adrcommune": "CHEVILLY LARUE",
+        "adr": "102 AV DU GENERAL DE GAULLE,94550 CHEVILLY LARUE",
+        "lat": 48.7712027,
+        "lng": 2.3492939
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3492939, 48.7712027]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CONFLANS-SAINTE-HONORINE",
+        "noauto": 119301.0,
+        "enseigne": "CINEVILLE (EX-ATALANTE)",
+        "adrnumvoie": "5 RUE ARNOULT CRAPOTTE",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78700.0,
+        "adrcommune": "CONFLANS SAINTE HONORINE",
+        "adr": "5 RUE ARNOULT CRAPOTTE,78700 CONFLANS SAINTE HONORINE",
+        "lat": 48.994498,
+        "lng": 2.0948816
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0948816, 48.994498]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "COURBEVOIE",
+        "noauto": 123905.0,
+        "enseigne": "CAMILLE ST SAENS",
+        "adrnumvoie": "15 BOULEVARD ARISTIDE BRIAND",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92400.0,
+        "adrcommune": "COURBEVOIE",
+        "adr": "15 BOULEVARD ARISTIDE BRIAND,92400 COURBEVOIE",
+        "lat": 48.9004873,
+        "lng": 2.2602508
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2602508, 48.9004873]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "COURBEVOIE",
+        "noauto": 123914.0,
+        "enseigne": "ABEL GANCE",
+        "adrnumvoie": "184 BD ST DENIS",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92400.0,
+        "adrcommune": "COURBEVOIE",
+        "adr": "184 BD ST DENIS,92400 COURBEVOIE",
+        "lat": 48.9013888,
+        "lng": 2.2718579
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2718579, 48.9013888]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ETAMPES",
+        "noauto": 152884.0,
+        "enseigne": "CINETAMPES",
+        "adrnumvoie": "PLACE GEOFFROY ST HILAIRE",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91150.0,
+        "adrcommune": "ETAMPES",
+        "adr": "PLACE GEOFFROY ST HILAIRE,91150 ETAMPES",
+        "lat": 48.4355724,
+        "lng": 2.1501205
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1501205, 48.4355724]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "EVRY",
+        "noauto": 154488.0,
+        "enseigne": "MEGA CGR",
+        "adrnumvoie": "CENTRE COMMERCIAL EVRY 2",
+        "adrcompleme": "PLACE DE L'AGORA - CE 169",
+        "dep": 91.0,
+        "adrcdpostal": 91022.0,
+        "adrcommune": "EVRY CEDEX",
+        "adr": "CENTRE COMMERCIAL EVRY 2,91022 EVRY CEDEX",
+        "lat": 48.62959,
+        "lng": 2.42879
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.42879, 48.62959]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "FOSSES",
+        "noauto": 166051.0,
+        "enseigne": "CINEMA DE L YSIEUX",
+        "adrnumvoie": "PLACE JEAN MOULIN",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95470.0,
+        "adrcommune": "FOSSES",
+        "adr": "PLACE JEAN MOULIN,95470 FOSSES",
+        "lat": 49.0994435,
+        "lng": 2.525063
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.525063, 49.0994435]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "GAGNY",
+        "noauto": 172043.0,
+        "enseigne": "THEATRE ANDRE MALRAUX",
+        "adrnumvoie": "1 BIS RUE GUILLEMETEAU",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93220.0,
+        "adrcommune": "GAGNY",
+        "adr": "1 BIS RUE GUILLEMETEAU,93220 GAGNY",
+        "lat": 48.884055,
+        "lng": 2.529837
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.529837, 48.884055]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "GOUSSAINVILLE",
+        "noauto": 181553.0,
+        "enseigne": "THEATRE SARAH BERNHARDT",
+        "adrnumvoie": "82 BD PAUL VAILLANT COUTURIER",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95190.0,
+        "adrcommune": "GOUSSAINVILLE",
+        "adr": "82 BD PAUL VAILLANT COUTURIER,95190 GOUSSAINVILLE",
+        "lat": 49.0324195,
+        "lng": 2.4714933
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4714933, 49.0324195]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "HERBLAY",
+        "noauto": 195082.0,
+        "enseigne": "THEATRE ROGER BARAT (EX-CENTRE CULTUREL)",
+        "adrnumvoie": "PLACE DE LA HALLE",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95220.0,
+        "adrcommune": "HERBLAY",
+        "adr": "PLACE DE LA HALLE,95220 HERBLAY",
+        "lat": 48.9919946,
+        "lng": 2.1659532
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1659532, 48.9919946]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "JOINVILLE-LE-PONT",
+        "noauto": 204534.0,
+        "enseigne": "SALLE PIERRE ET JACQUES PREVERT (EX -SALLE DES CONGRES)",
+        "adrnumvoie": "RUE DE PARIS",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94340.0,
+        "adrcommune": "JOINVILLE LE PONT",
+        "adr": "RUE DE PARIS,94340 JOINVILLE LE PONT",
+        "lat": 48.8163684,
+        "lng": 2.4686654
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4686654, 48.8163684]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LIVRY-GARGAN",
+        "noauto": 229833.0,
+        "enseigne": "CINE MUNICIPAL YVES MONTAND",
+        "adrnumvoie": "36 RUE EUGENE MASSE",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93190.0,
+        "adrcommune": "LIVRY GARGAN",
+        "adr": "36 RUE EUGENE MASSE,93190 LIVRY GARGAN",
+        "lat": 48.9258559,
+        "lng": 2.545365
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.545365, 48.9258559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MARLY-LE-ROI",
+        "noauto": 248192.0,
+        "enseigne": "FONTENELLE",
+        "adrnumvoie": "10 RUE CARNOT",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78160.0,
+        "adrcommune": "MARLY LE ROI",
+        "adr": "10 RUE CARNOT,78160 MARLY LE ROI",
+        "lat": 48.8712123,
+        "lng": 2.0957423
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0957423, 48.8712123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MENNECY",
+        "noauto": 256982.0,
+        "enseigne": "ESPACE CULTUREL J J ROBERT",
+        "adrnumvoie": "7 AVENUE DE VILLEROY",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91540.0,
+        "adrcommune": "MENNECY",
+        "adr": "7 AVENUE DE VILLEROY,91540 MENNECY",
+        "lat": 48.5649864,
+        "lng": 2.4279485
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4279485, 48.5649864]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MOISSY-CRAMAYEL",
+        "noauto": 264672.0,
+        "enseigne": "LA ROTONDE",
+        "adrnumvoie": "PLACE DU 14 JUILLET",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77550.0,
+        "adrcommune": "MOISSY CRAMAYEL",
+        "adr": "PLACE DU 14 JUILLET,77550 MOISSY CRAMAYEL",
+        "lat": 48.628124,
+        "lng": 2.590005
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.590005, 48.628124]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MONS-EN-MONTOIS",
+        "noauto": 267481.0,
+        "enseigne": "CINEMA  11X20 14",
+        "adrnumvoie": "21 RUE DE LA CROIX-ROUGE",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77520.0,
+        "adrcommune": "MONS EN MONTOIS",
+        "adr": "21 RUE DE LA CROIX-ROUGE,77520 MONS EN MONTOIS",
+        "lat": 48.48994,
+        "lng": 3.1484828
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.1484828, 48.48994]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MONTFORT-L AMAURY",
+        "noauto": 272072.0,
+        "enseigne": "SALLE DES LOISIRS",
+        "adrnumvoie": "3 PLACE DE NICKENICH",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78490.0,
+        "adrcommune": "MONTFORT L AMAURY",
+        "adr": "3 PLACE DE NICKENICH,78490 MONTFORT L AMAURY",
+        "lat": 48.7743417,
+        "lng": 1.8160432
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.8160432, 48.7743417]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "NEMOURS",
+        "noauto": 286831.0,
+        "enseigne": "MELIES",
+        "adrnumvoie": "9 RUE BEZOUT",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77140.0,
+        "adrcommune": "NEMOURS",
+        "adr": "9 RUE BEZOUT,77140 NEMOURS",
+        "lat": 48.2655256,
+        "lng": 2.6954588
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.6954588, 48.2655256]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "NOISY-LE-GRAND",
+        "noauto": 292374.0,
+        "enseigne": "UGC CINE CITE",
+        "adrnumvoie": "CENTRE COMMERCIAL LES ARCADES",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93160.0,
+        "adrcommune": "NOISY LE GRAND",
+        "adr": "CENTRE COMMERCIAL LES ARCADES,93160 NOISY LE GRAND",
+        "lat": 48.848579,
+        "lng": 2.55261
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.55261, 48.848579]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ORSAY",
+        "noauto": 299572.0,
+        "enseigne": "SALLE JACQUES TATI  BOUVECHE",
+        "adrnumvoie": "14 AVENUE SAINT LAURENT",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91400.0,
+        "adrcommune": "ORSAY",
+        "adr": "14 AVENUE SAINT LAURENT,91400 ORSAY",
+        "lat": 48.6988139,
+        "lng": 2.1898183
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1898183, 48.6988139]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PONTOISE",
+        "noauto": 320532.0,
+        "enseigne": "ROYAL UTOPIA",
+        "adrnumvoie": "14 RUE ALEXANDRE PRACHAY",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95300.0,
+        "adrcommune": "PONTOISE",
+        "adr": "14 RUE ALEXANDRE PRACHAY,95300 PONTOISE",
+        "lat": 49.0492963,
+        "lng": 2.0991592
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0991592, 49.0492963]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "RAMBOUILLET",
+        "noauto": 331271.0,
+        "enseigne": "VOX ODEON",
+        "adrnumvoie": "71 RUE DU GENERAL DE GAULLE",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78120.0,
+        "adrcommune": "RAMBOUILLET",
+        "adr": "71 RUE DU GENERAL DE GAULLE,78120 RAMBOUILLET",
+        "lat": 48.64453,
+        "lng": 1.8231447
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.8231447, 48.64453]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "RIS-ORANGIS",
+        "noauto": 338335.0,
+        "enseigne": "CINOCHE 4",
+        "adrnumvoie": "AVENUE DE LA LIBERATION",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91130.0,
+        "adrcommune": "RIS ORANGIS",
+        "adr": "AVENUE DE LA LIBERATION,91130 RIS ORANGIS",
+        "lat": 48.6485589,
+        "lng": 2.4177042
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4177042, 48.6485589]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ROSNY-SOUS-BOIS",
+        "noauto": 343750.0,
+        "enseigne": "UGC CINE CITE ROSNY",
+        "adrnumvoie": "16 RUE CONRAD ADENAUER",
+        "adrcompleme": "CENTRE COMMERCIAL ROSNY 2",
+        "dep": 93.0,
+        "adrcdpostal": 93110.0,
+        "adrcommune": "ROSNY SOUS BOIS",
+        "adr": "16 RUE CONRAD ADENAUER,93110 ROSNY SOUS BOIS",
+        "lat": 48.8809111,
+        "lng": 2.4811696
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4811696, 48.8809111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ROSNY-SOUS-BOIS",
+        "noauto": 343762.0,
+        "enseigne": "ESPACE GEORGES SIMENON",
+        "adrnumvoie": "PLACE CARNOT",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93110.0,
+        "adrcommune": "ROSNY SOUS BOIS",
+        "adr": "PLACE CARNOT,93110 ROSNY SOUS BOIS",
+        "lat": 48.8736094,
+        "lng": 2.4825309
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4825309, 48.8736094]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "RUEIL-MALMAISON",
+        "noauto": 347164.0,
+        "enseigne": "CENTRE CULTUREL EDMOND ROSTAND",
+        "adrnumvoie": "20 BD EDMOND ROSTAND",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92500.0,
+        "adrcommune": "RUEIL MALMAISON",
+        "adr": "20 BD EDMOND ROSTAND,92500 RUEIL MALMAISON",
+        "lat": 48.8745186,
+        "lng": 2.1901748
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1901748, 48.8745186]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SEVRES",
+        "noauto": 362414.0,
+        "enseigne": "CINE SEL",
+        "adrnumvoie": "47\/49 GRANDE RUE",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92310.0,
+        "adrcommune": "SEVRES",
+        "adr": "47\/49 GRANDE RUE,92310 SEVRES",
+        "lat": 48.8249762,
+        "lng": 2.2150313
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2150313, 48.8249762]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "STAINS",
+        "noauto": 368403.0,
+        "enseigne": "SALLE PAUL ELUARD",
+        "adrnumvoie": "PLACE MARCEL POINTET",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93240.0,
+        "adrcommune": "STAINS",
+        "adr": "PLACE MARCEL POINTET,93240 STAINS",
+        "lat": 48.951726,
+        "lng": 2.381872
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.381872, 48.951726]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINT-DENIS",
+        "noauto": 381941.0,
+        "enseigne": "GAUMONT",
+        "adrnumvoie": "8 RUE DU MONDIAL 1998",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93200.0,
+        "adrcommune": "SAINT DENIS",
+        "adr": "8 RUE DU MONDIAL 1998,93200 SAINT DENIS",
+        "lat": 48.9260717,
+        "lng": 2.3620571
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3620571, 48.9260717]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINT-MAUR-DES-FOSSES",
+        "noauto": 404612.0,
+        "enseigne": "LES 4 DELTA 4",
+        "adrnumvoie": "81 BIS AVENUE DU BAC",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94210.0,
+        "adrcommune": "LA VARENNE SAINT HILAIRE",
+        "adr": "81 BIS AVENUE DU BAC,94210 LA VARENNE SAINT HILAIRE",
+        "lat": 48.7934558,
+        "lng": 2.51479
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.51479, 48.7934558]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINT-OUEN-L AUMONE",
+        "noauto": 408323.0,
+        "enseigne": "UTOPIA",
+        "adrnumvoie": "1 PLACE MENDES-FRANCE",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95310.0,
+        "adrcommune": "SAINT OUEN L AUMONE",
+        "adr": "1 PLACE MENDES-FRANCE,95310 SAINT OUEN L AUMONE",
+        "lat": 49.0441352,
+        "lng": 2.1065532
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1065532, 49.0441352]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "THIAIS",
+        "noauto": 425503.0,
+        "enseigne": "PATHE BELLE EPINE",
+        "adrnumvoie": "CENTRE COMMERCIAL BELLE EPINE",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94320.0,
+        "adrcommune": "THIAIS",
+        "adr": "CENTRE COMMERCIAL BELLE EPINE,94320 THIAIS",
+        "lat": 48.75537,
+        "lng": 2.3721033
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3721033, 48.75537]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "TRAPPES",
+        "noauto": 432832.0,
+        "enseigne": "CINEMA LE GRENIER A SEL",
+        "adrnumvoie": "PLACE DU 8 MAI 1945",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78190.0,
+        "adrcommune": "TRAPPES",
+        "adr": "PLACE DU 8 MAI 1945,78190 TRAPPES",
+        "lat": 48.776428,
+        "lng": 1.985499
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.985499, 48.776428]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LES ULIS",
+        "noauto": 437561.0,
+        "enseigne": "STUDIO DES CHAMPS LASNIERS",
+        "adrnumvoie": "AVENUE DU BERRY",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91940.0,
+        "adrcommune": "LES ULIS",
+        "adr": "AVENUE DU BERRY,91940 LES ULIS",
+        "lat": 48.682607,
+        "lng": 2.1691355
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1691355, 48.682607]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VERRIERES-LE-BUISSON",
+        "noauto": 449542.0,
+        "enseigne": "LE COLOMBIER",
+        "adrnumvoie": "VOIE DE L AULNE",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91370.0,
+        "adrcommune": "VERRIERES LE BUISSON",
+        "adr": "VOIE DE L AULNE,91370 VERRIERES LE BUISSON",
+        "lat": 48.7544053,
+        "lng": 2.2697828
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2697828, 48.7544053]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VILLENEUVE-LA-GARENNE",
+        "noauto": 457861.0,
+        "enseigne": "ANDRE MALRAUX",
+        "adrnumvoie": "28 AVENUE DE VERDUN",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92390.0,
+        "adrcommune": "VILLENEUVE LA GARENNE",
+        "adr": "28 AVENUE DE VERDUN,92390 VILLENEUVE LA GARENNE",
+        "lat": 48.9355926,
+        "lng": 2.3329343
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3329343, 48.9355926]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VINCENNES",
+        "noauto": 462304.0,
+        "enseigne": "CINEMA SORANO",
+        "adrnumvoie": "1 RUE CHARLES PATHE",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94300.0,
+        "adrcommune": "VINCENNES",
+        "adr": "1 RUE CHARLES PATHE,94300 VINCENNES",
+        "lat": 48.8494823,
+        "lng": 2.4372652
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4372652, 48.8494823]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VITRY-SUR-SEINE",
+        "noauto": 463931.0,
+        "enseigne": "3 CINES ROBESPIERRE",
+        "adrnumvoie": "19 AVENUE MAXIMILIEN ROBESPIERRE",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94400.0,
+        "adrcommune": "VITRY SUR SEINE",
+        "adr": "19 AVENUE MAXIMILIEN ROBESPIERRE,94400 VITRY SUR SEINE",
+        "lat": 48.7908029,
+        "lng": 2.3881204
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3881204, 48.7908029]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CRETEIL",
+        "noauto": 720300.0,
+        "enseigne": "UGC CINE CITE",
+        "adrnumvoie": "CENTRE COMMERCIAL CRETEIL SOLEIL",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94000.0,
+        "adrcommune": "CRETEIL",
+        "adr": "CENTRE COMMERCIAL CRETEIL SOLEIL,94000 CRETEIL",
+        "lat": 48.7797306,
+        "lng": 2.4574149
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4574149, 48.7797306]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 8ME",
+        "noauto": 35.0,
+        "enseigne": "BALZAC",
+        "adrnumvoie": "1 RUE BALZAC",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75008.0,
+        "adrcommune": "PARIS",
+        "adr": "1 RUE BALZAC,75008 PARIS",
+        "lat": 48.8729717,
+        "lng": 2.2999725
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2999725, 48.8729717]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 8ME",
+        "noauto": 55.0,
+        "enseigne": "ELYSEES LINCOLN",
+        "adrnumvoie": "14 RUE LINCOLN",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75008.0,
+        "adrcommune": "PARIS",
+        "adr": "14 RUE LINCOLN,75008 PARIS",
+        "lat": 48.8706231,
+        "lng": 2.303208
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.303208, 48.8706231]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 9ME",
+        "noauto": 201.0,
+        "enseigne": "GAUMONT OPERA CAPUCINES",
+        "adrnumvoie": "2\/4 BOULEVARD DES CAPUCINES",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75009.0,
+        "adrcommune": "PARIS",
+        "adr": "2\/4 BOULEVARD DES CAPUCINES,75009 PARIS",
+        "lat": 48.8709867,
+        "lng": 2.3341446
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3341446, 48.8709867]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 2ME",
+        "noauto": 321.0,
+        "enseigne": "GAUMONT OPERA PREMIER",
+        "adrnumvoie": "32 RUE LOUIS LEGRAND",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75002.0,
+        "adrcommune": "PARIS",
+        "adr": "32 RUE LOUIS LEGRAND,75002 PARIS",
+        "lat": 48.8707745,
+        "lng": 2.3344495
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3344495, 48.8707745]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 14ME",
+        "noauto": 483.0,
+        "enseigne": "ENTREPOT",
+        "adrnumvoie": "7 ET 9 RUE FRANCIS DE PRESSENSE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75014.0,
+        "adrcommune": "PARIS",
+        "adr": "7 ET 9 RUE FRANCIS DE PRESSENSE,75014 PARIS",
+        "lat": 48.8338664,
+        "lng": 2.3165939
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3165939, 48.8338664]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 731.0,
+        "enseigne": "MK2 ODEON",
+        "adrnumvoie": "113 BD ST GERMAIN",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "113 BD ST GERMAIN,75006 PARIS",
+        "lat": 48.8524314,
+        "lng": 2.3383849
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3383849, 48.8524314]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 751.0,
+        "enseigne": "ST ANDRE DES ARTS",
+        "adrnumvoie": "3O RUE ST ANDRE DES ARTS",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "3O RUE ST ANDRE DES ARTS,75006 PARIS",
+        "lat": 48.8530749,
+        "lng": 2.3433615
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3433615, 48.8530749]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 803.0,
+        "enseigne": "BRETAGNE",
+        "adrnumvoie": "73 BD DU MONTPARNASSE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "73 BD DU MONTPARNASSE,75006 PARIS",
+        "lat": 48.8430459,
+        "lng": 2.3258817
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3258817, 48.8430459]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 891.0,
+        "enseigne": "ST GERMAIN DES PRES",
+        "adrnumvoie": "22 RUE GUILLAUME APOLLINAIRE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "22 RUE GUILLAUME APOLLINAIRE,75006 PARIS",
+        "lat": 48.8546272,
+        "lng": 2.3333466
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3333466, 48.8546272]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 18ME",
+        "noauto": 3741.0,
+        "enseigne": "STUDIO 28",
+        "adrnumvoie": "10 RUE THOLOZE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75018.0,
+        "adrcommune": "PARIS",
+        "adr": "10 RUE THOLOZE,75018 PARIS",
+        "lat": 48.886162,
+        "lng": 2.3353613
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3353613, 48.886162]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 20ME",
+        "noauto": 5691.0,
+        "enseigne": "MK2 GAMBETTA",
+        "adrnumvoie": "6 RUE BELGRAND",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75020.0,
+        "adrcommune": "PARIS",
+        "adr": "6 RUE BELGRAND,75020 PARIS",
+        "lat": 48.8648312,
+        "lng": 2.3998133
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3998133, 48.8648312]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 11ME",
+        "noauto": 5861.0,
+        "enseigne": "MK2 BASTILLE",
+        "adrnumvoie": "3 BD R LENOIR 4\/6 BD BEAUMARCHAI",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75011.0,
+        "adrcommune": "PARIS",
+        "adr": "3 BD R LENOIR 4\/6 BD BEAUMARCHAI,75011 PARIS",
+        "lat": 48.857993,
+        "lng": 2.381153
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.381153, 48.857993]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 12ME",
+        "noauto": 6611.0,
+        "enseigne": "UGC CINE CITE BERCY",
+        "adrnumvoie": "2 COUR SAINT-EMILION",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75012.0,
+        "adrcommune": "PARIS",
+        "adr": "2 COUR SAINT-EMILION,75012 PARIS",
+        "lat": 48.8320957,
+        "lng": 2.3847822
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3847822, 48.8320957]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 14ME",
+        "noauto": 7711.0,
+        "enseigne": "GAUMONT MONTPARNOS",
+        "adrnumvoie": "16 18 RUE D ODESSA",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75014.0,
+        "adrcommune": "PARIS",
+        "adr": "16 18 RUE D ODESSA,75014 PARIS",
+        "lat": 48.8419084,
+        "lng": 2.3245993
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3245993, 48.8419084]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 8341.0,
+        "enseigne": "NOUVEL ODEON",
+        "adrnumvoie": "6 RUE DE L ECOLE DE MEDECINE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "6 RUE DE L ECOLE DE MEDECINE,75006 PARIS",
+        "lat": 48.8506709,
+        "lng": 2.3419261
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3419261, 48.8506709]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 8353.0,
+        "enseigne": "UGC ODEON",
+        "adrnumvoie": "124 BD ST GERMAIN",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "124 BD ST GERMAIN,75006 PARIS",
+        "lat": 48.8523645,
+        "lng": 2.3397218
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3397218, 48.8523645]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 5ME",
+        "noauto": 8361.0,
+        "enseigne": "ESPACE SAINT MICHEL",
+        "adrnumvoie": "7 PLACE ST MICHEL",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75005.0,
+        "adrcommune": "PARIS",
+        "adr": "7 PLACE ST MICHEL,75005 PARIS",
+        "lat": 48.8531155,
+        "lng": 2.344223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.344223, 48.8531155]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 8ME",
+        "noauto": 9351.0,
+        "enseigne": "MK2 GRAND PALAIS",
+        "adrnumvoie": "GRAND PALAIS CHAMPS ELYSEES",
+        "adrcompleme": "COURS LA REINE PORTE C",
+        "dep": 75.0,
+        "adrcdpostal": 75008.0,
+        "adrcommune": "PARIS",
+        "adr": "GRAND PALAIS CHAMPS ELYSEES,75008 PARIS",
+        "lat": 48.865982,
+        "lng": 2.313817
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.313817, 48.865982]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 13ME",
+        "noauto": 9600.0,
+        "enseigne": "MK2 BIBLIOTHEQUE",
+        "adrnumvoie": "128 A 162 AVENUE DE FRANCE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75013.0,
+        "adrcommune": "PARIS",
+        "adr": "128 A 162 AVENUE DE FRANCE,75013 PARIS",
+        "lat": 48.8332195,
+        "lng": 2.3745595
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3745595, 48.8332195]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 19ME",
+        "noauto": 9900.0,
+        "enseigne": "MK2 QUAI DE LOIRE",
+        "adrnumvoie": "5\/19 QUAI DE LA LOIRE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75019.0,
+        "adrcommune": "PARIS",
+        "adr": "5\/19 QUAI DE LA LOIRE,75019 PARIS",
+        "lat": 48.8850215,
+        "lng": 2.3740517
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3740517, 48.8850215]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ANTONY",
+        "noauto": 20931.0,
+        "enseigne": "SELECT CINEMA LOUIS DAQUIN",
+        "adrnumvoie": "10 AV DIVISION LECLERC",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92160.0,
+        "adrcommune": "ANTONY",
+        "adr": "10 AV DIVISION LECLERC,92160 ANTONY",
+        "lat": 48.7530486,
+        "lng": 2.3048078
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3048078, 48.7530486]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ARCUEIL",
+        "noauto": 22636.0,
+        "enseigne": "MEGARAMA 1",
+        "adrnumvoie": "8 AVENUE SALVADOR ALLENDE",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94110.0,
+        "adrcommune": "ARCUEIL",
+        "adr": "8 AVENUE SALVADOR ALLENDE,94110 ARCUEIL",
+        "lat": 48.8102377,
+        "lng": 2.3277942
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3277942, 48.8102377]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "AUBERGENVILLE",
+        "noauto": 28113.0,
+        "enseigne": "PAUL GRIMAULT  EX CINE 83",
+        "adrnumvoie": "1 AV DE LA DIVISION LECLERC",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78410.0,
+        "adrcommune": "AUBERGENVILLE",
+        "adr": "1 AV DE LA DIVISION LECLERC,78410 AUBERGENVILLE",
+        "lat": 48.9589606,
+        "lng": 1.8551532
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.8551532, 48.9589606]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "AULNAY-SOUS-BOIS",
+        "noauto": 30164.0,
+        "enseigne": "ESPACE JACQUES PREVERT",
+        "adrnumvoie": "134 RUE ANATOLE FRANCE",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93600.0,
+        "adrcommune": "AULNAY SOUS BOIS",
+        "adr": "134 RUE ANATOLE FRANCE,93600 AULNAY SOUS BOIS",
+        "lat": 48.9403544,
+        "lng": 2.4964674
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4964674, 48.9403544]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BAGNOLET",
+        "noauto": 36013.0,
+        "enseigne": "LE CIN'HOCHE",
+        "adrnumvoie": "6 RUE HOCHE",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93170.0,
+        "adrcommune": "BAGNOLET",
+        "adr": "6 RUE HOCHE,93170 BAGNOLET",
+        "lat": 48.8692789,
+        "lng": 2.4170636
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4170636, 48.8692789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BONDY",
+        "noauto": 61504.0,
+        "enseigne": "SALLE ANDRE MALRAUX",
+        "adrnumvoie": "25 COURS DE LA REPUBLIQUE",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93140.0,
+        "adrcommune": "BONDY",
+        "adr": "25 COURS DE LA REPUBLIQUE,93140 BONDY",
+        "lat": 48.9016094,
+        "lng": 2.480013
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.480013, 48.9016094]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BOULOGNE-BILLANCOURT",
+        "noauto": 66835.0,
+        "enseigne": "CINEMA LANDOWSKI",
+        "adrnumvoie": "28 AVENUE ANDRE-MORIZET",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92100.0,
+        "adrcommune": "BOULOGNE BILLANCOURT",
+        "adr": "28 AVENUE ANDRE-MORIZET,92100 BOULOGNE BILLANCOURT",
+        "lat": 48.8358815,
+        "lng": 2.2394612
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2394612, 48.8358815]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BRAY-SUR-SEINE",
+        "noauto": 71901.0,
+        "enseigne": "LE RENAISSANCE",
+        "adrnumvoie": "16 RUE DE L EGLISE",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77480.0,
+        "adrcommune": "BRAY SUR SEINE",
+        "adr": "16 RUE DE L EGLISE,77480 BRAY SUR SEINE",
+        "lat": 48.4154339,
+        "lng": 3.2376596
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.2376596, 48.4154339]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LA CELLE-SAINT-CLOUD",
+        "noauto": 91492.0,
+        "enseigne": "CINEMA DU THEATRE",
+        "adrnumvoie": "8 AVENUE CHARLES DE GAULLE",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78170.0,
+        "adrcommune": "LA CELLE SAINT CLOUD",
+        "adr": "8 AVENUE CHARLES DE GAULLE,78170 LA CELLE SAINT CLOUD",
+        "lat": 48.8486863,
+        "lng": 2.1371357
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1371357, 48.8486863]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LES CLAYES-SOUS-BOIS",
+        "noauto": 114032.0,
+        "enseigne": "ESPACE PHILIPPE NOIRET (EX-CINEMA HENRI LANGLOIS)",
+        "adrnumvoie": "PLACE CHARLES DE GAULLE",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78340.0,
+        "adrcommune": "LES CLAYES SOUS BOIS",
+        "adr": "PLACE CHARLES DE GAULLE,78340 LES CLAYES SOUS BOIS",
+        "lat": 48.8213381,
+        "lng": 1.986654
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.986654, 48.8213381]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LA COURNEUVE",
+        "noauto": 125135.0,
+        "enseigne": "L ETOILE",
+        "adrnumvoie": "1 ALLEE DU PROGRES",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93120.0,
+        "adrcommune": "LA COURNEUVE",
+        "adr": "1 ALLEE DU PROGRES,93120 LA COURNEUVE",
+        "lat": 48.9275113,
+        "lng": 2.3917656
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3917656, 48.9275113]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CRETEIL",
+        "noauto": 128535.0,
+        "enseigne": "LA LUCARNE MJC",
+        "adrnumvoie": "100 RUE JULIETTE SAVAR",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94000.0,
+        "adrcommune": "CRETEIL",
+        "adr": "100 RUE JULIETTE SAVAR,94000 CRETEIL",
+        "lat": 48.7778718,
+        "lng": 2.4667717
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4667717, 48.7778718]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "DUGNY",
+        "noauto": 143550.0,
+        "enseigne": "SALLE DE SPECTACLES HENRI SALVADOR",
+        "adrnumvoie": "2 PARVIS EDITH PIAF",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93440.0,
+        "adrcommune": "DUGNY",
+        "adr": "2 PARVIS EDITH PIAF,93440 DUGNY",
+        "lat": 48.952179,
+        "lng": 2.416983
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.416983, 48.952179]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ERMONT",
+        "noauto": 149335.0,
+        "enseigne": "PIERRE FRESNAY",
+        "adrnumvoie": "3 RUE SAINT FLAIVE",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95120.0,
+        "adrcommune": "ERMONT",
+        "adr": "3 RUE SAINT FLAIVE,95120 ERMONT",
+        "lat": 48.9905665,
+        "lng": 2.2610936
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2610936, 48.9905665]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "GENNEVILLIERS",
+        "noauto": 175513.0,
+        "enseigne": "CINEMA JEAN VIGO",
+        "adrnumvoie": "1 RUE PIERRE ET MARIE CURIE",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92230.0,
+        "adrcommune": "GENNEVILLIERS",
+        "adr": "1 RUE PIERRE ET MARIE CURIE,92230 GENNEVILLIERS",
+        "lat": 48.9285105,
+        "lng": 2.2936544
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2936544, 48.9285105]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "L ISLE-ADAM",
+        "noauto": 201524.0,
+        "enseigne": "LE CONTI",
+        "adrnumvoie": "PLACE DU PATIS",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95290.0,
+        "adrcommune": "L ISLE ADAM",
+        "adr": "PLACE DU PATIS,95290 L ISLE ADAM",
+        "lat": 49.1109013,
+        "lng": 2.2121789
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2121789, 49.1109013]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ISSY-LES-MOULINEAUX",
+        "noauto": 202214.0,
+        "enseigne": "CINE D ISSY",
+        "adrnumvoie": "MAIL RAYMOND MENAND",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92130.0,
+        "adrcommune": "ISSY LES MOULINEAUX",
+        "adr": "MAIL RAYMOND MENAND,92130 ISSY LES MOULINEAUX",
+        "lat": 48.825462,
+        "lng": 2.270619
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.270619, 48.825462]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LAGNY-SUR-MARNE",
+        "noauto": 211844.0,
+        "enseigne": "ESPACE",
+        "adrnumvoie": "5 RUE DELAMBRE",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77400.0,
+        "adrcommune": "LAGNY SUR MARNE",
+        "adr": "5 RUE DELAMBRE,77400 LAGNY SUR MARNE",
+        "lat": 48.8796361,
+        "lng": 2.7061116
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.7061116, 48.8796361]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MASSY",
+        "noauto": 252134.0,
+        "enseigne": "CINEMASSY",
+        "adrnumvoie": "PLACE DE FRANCE",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91300.0,
+        "adrcommune": "MASSY",
+        "adr": "PLACE DE FRANCE,91300 MASSY",
+        "lat": 48.7330045,
+        "lng": 2.2887337
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2887337, 48.7330045]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MEAUX",
+        "noauto": 254781.0,
+        "enseigne": "MAJESTIC",
+        "adrnumvoie": "11 PLACE HENRI IV",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77100.0,
+        "adrcommune": "MEAUX",
+        "adr": "11 PLACE HENRI IV,77100 MEAUX",
+        "lat": 48.9595651,
+        "lng": 2.8836897
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.8836897, 48.9595651]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MONTIGNY-LES-CORMEILLES",
+        "noauto": 273182.0,
+        "enseigne": "CENTRE PICASSO",
+        "adrnumvoie": "RUE GUY DE MAUPASSANT",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95370.0,
+        "adrcommune": "MONTIGNY LES CORMEILLES",
+        "adr": "RUE GUY DE MAUPASSANT,95370 MONTIGNY LES CORMEILLES",
+        "lat": 48.9967196,
+        "lng": 2.200467
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.200467, 48.9967196]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "NEUILLY-PLAISANCE",
+        "noauto": 288024.0,
+        "enseigne": "LA FAUVETTE",
+        "adrnumvoie": "21 AV DANIEL PERDRIGE",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93360.0,
+        "adrcommune": "NEUILLY PLAISANCE",
+        "adr": "21 AV DANIEL PERDRIGE,93360 NEUILLY PLAISANCE",
+        "lat": 48.8731288,
+        "lng": 2.5106297
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5106297, 48.8731288]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "NOISY-LE-GRAND",
+        "noauto": 292377.0,
+        "enseigne": "LE BIJOU",
+        "adrnumvoie": "PLACE DE LA LIBERATION",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93160.0,
+        "adrcommune": "NOISY-LE-GRAND",
+        "adr": "PLACE DE LA LIBERATION,93160 NOISY-LE-GRAND",
+        "lat": 48.8488104,
+        "lng": 2.5524861
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5524861, 48.8488104]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ORLY",
+        "noauto": 298964.0,
+        "enseigne": "SALLE ARAGON",
+        "adrnumvoie": "1 PLACE DU FER A CHEVAL",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94310.0,
+        "adrcommune": "ORLY",
+        "adr": "1 PLACE DU FER A CHEVAL,94310 ORLY",
+        "lat": 48.7468342,
+        "lng": 2.4054748
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4054748, 48.7468342]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PALAISEAU",
+        "noauto": 302485.0,
+        "enseigne": "CINEPAL",
+        "adrnumvoie": "AVENUE DU 8 MAI 1945",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91120.0,
+        "adrcommune": "PALAISEAU",
+        "adr": "AVENUE DU 8 MAI 1945,91120 PALAISEAU",
+        "lat": 48.7104661,
+        "lng": 2.2438912
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2438912, 48.7104661]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PONTAULT-COMBAULT",
+        "noauto": 318801.0,
+        "enseigne": "APOLLO",
+        "adrnumvoie": "62 AVENUE DE LA REPUBLIQUE",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77340.0,
+        "adrcommune": "PONTAULT COMBAULT",
+        "adr": "62 AVENUE DE LA REPUBLIQUE,77340 PONTAULT COMBAULT",
+        "lat": 48.8034054,
+        "lng": 2.6112557
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.6112557, 48.8034054]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ROISSY-EN-BRIE",
+        "noauto": 341321.0,
+        "enseigne": "LA GRANGE",
+        "adrnumvoie": "FERME DE L'AYAU",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77680.0,
+        "adrcommune": "ROISSY",
+        "adr": "FERME DE L'AYAU,77680 ROISSY",
+        "lat": 48.790685,
+        "lng": 2.654541
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.654541, 48.790685]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SANNOIS",
+        "noauto": 351992.0,
+        "enseigne": "CYRANO",
+        "adrnumvoie": "PLACE DU GENERAL LECLERC",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95110.0,
+        "adrcommune": "SANNOIS",
+        "adr": "PLACE DU GENERAL LECLERC,95110 SANNOIS",
+        "lat": 48.971541,
+        "lng": 2.256499
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.256499, 48.971541]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SEVRAN",
+        "noauto": 362374.0,
+        "enseigne": "LES 39 MARCHES 4",
+        "adrnumvoie": "CTRE BEAU-SEVRAN\/LES BEAUDOTTES",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93270.0,
+        "adrcommune": "SEVRAN",
+        "adr": "CTRE BEAU-SEVRAN\/LES BEAUDOTTES,93270 SEVRAN",
+        "lat": 48.93897,
+        "lng": 2.538716
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.538716, 48.93897]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SUCY-EN-BRIE",
+        "noauto": 370073.0,
+        "enseigne": "ESPACE JEAN-MARIE POIRIER (EX-CENTRE CULTUREL)",
+        "adrnumvoie": "ESPLANADE DU 18 JUIN 1940",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94370.0,
+        "adrcommune": "SUCY EN BRIE",
+        "adr": "ESPLANADE DU 18 JUIN 1940,94370 SUCY EN BRIE",
+        "lat": 48.7886373,
+        "lng": 2.5358963
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5358963, 48.7886373]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINTE-GENEVIEVE-DES-BOIS",
+        "noauto": 386864.0,
+        "enseigne": "LES 4 PERRAY",
+        "adrnumvoie": "44\/46 AV GABRIEL PERI",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91700.0,
+        "adrcommune": "SAINTE GENEVIEVE DES BOIS",
+        "adr": "44\/46 AV GABRIEL PERI,91700 SAINTE GENEVIEVE DES BOIS",
+        "lat": 48.6509278,
+        "lng": 2.317368
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.317368, 48.6509278]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINT-GERMAIN-EN-LAYE",
+        "noauto": 388971.0,
+        "enseigne": "C 2 L",
+        "adrnumvoie": "25\/27\/29 RUE DU VIEUX MARCHE",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78100.0,
+        "adrcommune": "SAINT GERMAIN EN LAYE",
+        "adr": "25\/27\/29 RUE DU VIEUX MARCHE,78100 SAINT GERMAIN EN LAYE",
+        "lat": 48.8966175,
+        "lng": 2.09102
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.09102, 48.8966175]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "TREMBLAY-EN-FRANCE",
+        "noauto": 433972.0,
+        "enseigne": "JACQUES TATI",
+        "adrnumvoie": "29 BIS AV CHARLES DE GAULLE",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93290.0,
+        "adrcommune": "TREMBLAY EN FRANCE",
+        "adr": "29 BIS AV CHARLES DE GAULLE,93290 TREMBLAY EN FRANCE",
+        "lat": 48.9182508,
+        "lng": 2.5289614
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5289614, 48.9182508]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VARENNES-SUR-SEINE",
+        "noauto": 442370.0,
+        "enseigne": "CINEMA CONFLUENCES",
+        "adrnumvoie": "PETIT FOSSARD",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77130.0,
+        "adrcommune": "VARENNES-SUR-SEINE",
+        "adr": "PETIT FOSSARD,77130 VARENNES-SUR-SEINE",
+        "lat": 48.362254,
+        "lng": 2.955294
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.955294, 48.362254]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VAUCRESSON",
+        "noauto": 443601.0,
+        "enseigne": "LE NORMANDY",
+        "adrnumvoie": "72 BOULEVARD DE LA REPUBLIQUE",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92420.0,
+        "adrcommune": "VAUCRESSON",
+        "adr": "72 BOULEVARD DE LA REPUBLIQUE,92420 VAUCRESSON",
+        "lat": 48.8378446,
+        "lng": 2.1573672
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1573672, 48.8378446]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VILLENEUVE-LE-ROI",
+        "noauto": 455732.0,
+        "enseigne": "SALLE PIERRE MARTIN",
+        "adrnumvoie": "AVENUE DU DOCTEUR CALMETTE",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94290.0,
+        "adrcommune": "VILLENEUVE LE ROI",
+        "adr": "AVENUE DU DOCTEUR CALMETTE,94290 VILLENEUVE LE ROI",
+        "lat": 48.7372423,
+        "lng": 2.4177272
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4177272, 48.7372423]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VILLENEUVE-LE-ROI",
+        "noauto": 457983.0,
+        "enseigne": "ESPACE CULTUREL",
+        "adrnumvoie": "56BIS AVENUE CARNOT",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94290.0,
+        "adrcommune": "VILLENEUVE-LE-ROI",
+        "adr": "56BIS AVENUE CARNOT,94290 VILLENEUVE-LE-ROI",
+        "lat": 48.7352551,
+        "lng": 2.4169099
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4169099, 48.7352551]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 8ME",
+        "noauto": 52.0,
+        "enseigne": "GAUMONT CHAMPS ELYSEES AMBASSADE",
+        "adrnumvoie": "50 AVENUE DES CHAMPS ELYSEES",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75008.0,
+        "adrcommune": "PARIS",
+        "adr": "50 AVENUE DES CHAMPS ELYSEES,75008 PARIS",
+        "lat": 48.8703989,
+        "lng": 2.3070105
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3070105, 48.8703989]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 14ME",
+        "noauto": 481.0,
+        "enseigne": "GAUMONT PARNASSE",
+        "adrnumvoie": "3 RUE D'ODESSA",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75014.0,
+        "adrcommune": "PARIS",
+        "adr": "3 RUE D'ODESSA,75014 PARIS",
+        "lat": 48.8432737,
+        "lng": 2.3251805
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3251805, 48.8432737]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 16ME",
+        "noauto": 2251.0,
+        "enseigne": "MAJESTIC PASSY",
+        "adrnumvoie": "18 - 20 RUE DE PASSY",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75016.0,
+        "adrcommune": "PARIS",
+        "adr": "18 - 20 RUE DE PASSY,75016 PARIS",
+        "lat": 48.8581826,
+        "lng": 2.2820279
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2820279, 48.8581826]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 11ME",
+        "noauto": 5841.0,
+        "enseigne": "LA BASTILLE",
+        "adrnumvoie": "5 RUE DU FAUBOURG ST ANTOINE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75011.0,
+        "adrcommune": "PARIS",
+        "adr": "5 RUE DU FAUBOURG ST ANTOINE,75011 PARIS",
+        "lat": 48.8530805,
+        "lng": 2.3708337
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3708337, 48.8530805]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 15ME",
+        "noauto": 7491.0,
+        "enseigne": "GAUMONT AQUABOULEVARD",
+        "adrnumvoie": "8\/16 RUE DU COLONEL PIERRE AVIA",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75015.0,
+        "adrcommune": "PARIS",
+        "adr": "8\/16 RUE DU COLONEL PIERRE AVIA,75015 PARIS",
+        "lat": 48.831007,
+        "lng": 2.2769859
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2769859, 48.831007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 5ME",
+        "noauto": 8451.0,
+        "enseigne": "STUDIO DES URSULINES",
+        "adrnumvoie": "10 RUE DES URSULINES",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75005.0,
+        "adrcommune": "PARIS",
+        "adr": "10 RUE DES URSULINES,75005 PARIS",
+        "lat": 48.8427251,
+        "lng": 2.3420351
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3420351, 48.8427251]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 5ME",
+        "noauto": 8531.0,
+        "enseigne": "LE GRAND ACTION",
+        "adrnumvoie": "5 RUE DES ECOLES",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75005.0,
+        "adrcommune": "PARIS",
+        "adr": "5 RUE DES ECOLES,75005 PARIS",
+        "lat": 48.8475528,
+        "lng": 2.3521136
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3521136, 48.8475528]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 20ME",
+        "noauto": 9950.0,
+        "enseigne": "ETOILE LILAS 1",
+        "adrnumvoie": "PLACE DU MAQUIS DU VERCORS",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75020.0,
+        "adrcommune": "PARIS",
+        "adr": "PLACE DU MAQUIS DU VERCORS,75020 PARIS",
+        "lat": 48.8776982,
+        "lng": 2.4088543
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4088543, 48.8776982]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ARGENTEUIL",
+        "noauto": 23323.0,
+        "enseigne": "LE FIGUIER BLANC",
+        "adrnumvoie": "3TER RUE GREGOIRE COLLAS",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95100.0,
+        "adrcommune": "ARGENTEUIL",
+        "adr": "3TER RUE GREGOIRE COLLAS,95100 ARGENTEUIL",
+        "lat": 48.9440096,
+        "lng": 2.2491797
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2491797, 48.9440096]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ARPAJON",
+        "noauto": 24753.0,
+        "enseigne": "STARS",
+        "adrnumvoie": "13 AV DU GENERAL DE GAULLE",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91290.0,
+        "adrcommune": "ARPAJON",
+        "adr": "13 AV DU GENERAL DE GAULLE,91290 ARPAJON",
+        "lat": 48.5907247,
+        "lng": 2.2499248
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2499248, 48.5907247]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BEAUMONT-SUR-OISE",
+        "noauto": 45132.0,
+        "enseigne": "BEAUMONT PALACE",
+        "adrnumvoie": "6 AV ANATOLE FRANCE",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95260.0,
+        "adrcommune": "BEAUMONT SUR OISE",
+        "adr": "6 AV ANATOLE FRANCE,95260 BEAUMONT SUR OISE",
+        "lat": 49.1414316,
+        "lng": 2.2832411
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2832411, 49.1414316]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BRIE-COMTE-ROBERT",
+        "noauto": 74662.0,
+        "enseigne": "LES 4 VENTS",
+        "adrnumvoie": "CENTRE COMMERCIAL DES 4 VENTS",
+        "adrcompleme": "80 RUE DU GENERAL LECLERC",
+        "dep": 77.0,
+        "adrcdpostal": 77170.0,
+        "adrcommune": "BRIE-COMTE-ROBERT",
+        "adr": "CENTRE COMMERCIAL DES 4 VENTS,77170 BRIE-COMTE-ROBERT",
+        "lat": 48.69698,
+        "lng": 2.607112
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.607112, 48.69698]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CHAMPAGNE-SUR-SEINE",
+        "noauto": 96533.0,
+        "enseigne": "JEAN GABIN",
+        "adrnumvoie": "RUE PIERRE DE COUBERTIN",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77460.0,
+        "adrcommune": "CHAMPAGNE-SUR-SEINE",
+        "adr": "RUE PIERRE DE COUBERTIN,77460 CHAMPAGNE-SUR-SEINE",
+        "lat": 48.398362,
+        "lng": 2.805565
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.805565, 48.398362]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CHAVILLE",
+        "noauto": 108192.0,
+        "enseigne": "ATRIUM",
+        "adrnumvoie": "3 PARVIS ROBERT SCHUMAN",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92370.0,
+        "adrcommune": "CHAVILLE",
+        "adr": "3 PARVIS ROBERT SCHUMAN,92370 CHAVILLE",
+        "lat": 48.8130342,
+        "lng": 2.1921547
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1921547, 48.8130342]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CHOISY-LE-ROI",
+        "noauto": 112014.0,
+        "enseigne": "SALLE PAUL ELUARD",
+        "adrnumvoie": "4 AV DE VILLENEUVE ST GEORGES",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94600.0,
+        "adrcommune": "CHOISY LE ROI",
+        "adr": "4 AV DE VILLENEUVE ST GEORGES,94600 CHOISY LE ROI",
+        "lat": 48.7663281,
+        "lng": 2.4145758
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4145758, 48.7663281]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CONFLANS-SAINTE-HONORINE",
+        "noauto": 119305.0,
+        "enseigne": "PATHE",
+        "adrnumvoie": "ZA LES BOUTRIES",
+        "adrcompleme": "RUE DE L'HAUTIL",
+        "dep": 78.0,
+        "adrcdpostal": 78700.0,
+        "adrcommune": "CONFLANS SAINTE HONORINE",
+        "adr": "ZA LES BOUTRIES,78700 CONFLANS SAINTE HONORINE",
+        "lat": 49.000275,
+        "lng": 2.09178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.09178, 49.000275]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CORBEIL-ESSONNES",
+        "noauto": 120293.0,
+        "enseigne": "ARCEL",
+        "adrnumvoie": "15 PLACE LEON CASSE",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91100.0,
+        "adrcommune": "CORBEIL ESSONNES",
+        "adr": "15 PLACE LEON CASSE,91100 CORBEIL ESSONNES",
+        "lat": 48.6038235,
+        "lng": 2.4693585
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4693585, 48.6038235]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ELANCOURT",
+        "noauto": 146371.0,
+        "enseigne": "GRENOUILLE",
+        "adrnumvoie": "CENTRE COMMERCIAL DES 7 MARES",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78990.0,
+        "adrcommune": "ELANCOURT",
+        "adr": "CENTRE COMMERCIAL DES 7 MARES,78990 ELANCOURT",
+        "lat": 48.782907,
+        "lng": 1.960077
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.960077, 48.782907]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "FONTENAY-LE-FLEURY",
+        "noauto": 164022.0,
+        "enseigne": "THEATRE DE FONTENAY",
+        "adrnumvoie": "PLACE DU 8 MAI 1945",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78330.0,
+        "adrcommune": "FONTENAY LE FLEURY",
+        "adr": "PLACE DU 8 MAI 1945,78330 FONTENAY LE FLEURY",
+        "lat": 48.8214869,
+        "lng": 1.9860616
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.9860616, 48.8214869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "FRESNES",
+        "noauto": 169572.0,
+        "enseigne": "M J C",
+        "adrnumvoie": "2 AV DU PARC DES SPORTS",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94260.0,
+        "adrcommune": "FRESNES",
+        "adr": "2 AV DU PARC DES SPORTS,94260 FRESNES",
+        "lat": 48.7527321,
+        "lng": 2.3134144
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3134144, 48.7527321]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "GIF-SUR-YVETTE",
+        "noauto": 177201.0,
+        "enseigne": "LE CENTRAL",
+        "adrnumvoie": "SQUARE DE LA MAIRIE",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91190.0,
+        "adrcommune": "GIF SUR YVETTE",
+        "adr": "SQUARE DE LA MAIRIE,91190 GIF SUR YVETTE",
+        "lat": 48.701976,
+        "lng": 2.133723
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.133723, 48.701976]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ITTEVILLE",
+        "noauto": 202370.0,
+        "enseigne": "SALLE GEORGES BRASSENS",
+        "adrnumvoie": "SALLE GEORGES BRASSENS",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91760.0,
+        "adrcommune": "ITTEVILLE",
+        "adr": "SALLE GEORGES BRASSENS,91760 ITTEVILLE",
+        "lat": 48.514297,
+        "lng": 2.339731
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.339731, 48.514297]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "IVRY-SUR-SEINE",
+        "noauto": 202562.0,
+        "enseigne": "PATHE",
+        "adrnumvoie": "2 QUAI MARCEL BOYER",
+        "adrcompleme": "5 RUE FRANCOIS MITTERRAND",
+        "dep": 94.0,
+        "adrcdpostal": 94200.0,
+        "adrcommune": "IVRY SUR SEINE",
+        "adr": "2 QUAI MARCEL BOYER,94200 IVRY SUR SEINE",
+        "lat": 48.8249018,
+        "lng": 2.3894658
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3894658, 48.8249018]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "JOUY-LE-MOUTIER",
+        "noauto": 205601.0,
+        "enseigne": "CENTRE CULTUREL",
+        "adrnumvoie": "96 AVENUE DES BRUZACQUES",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95000.0,
+        "adrcommune": "CERGY",
+        "adr": "96 AVENUE DES BRUZACQUES,95000 CERGY",
+        "lat": 49.0115872,
+        "lng": 2.0436084
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0436084, 49.0115872]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "JUVISY-SUR-ORGE",
+        "noauto": 206924.0,
+        "enseigne": "CINEMA AGNES VARDA",
+        "adrnumvoie": "37-39 GRANDE RUE",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91260.0,
+        "adrcommune": "JUVISY SUR ORGE",
+        "adr": "37-39 GRANDE RUE,91260 JUVISY SUR ORGE",
+        "lat": 48.690704,
+        "lng": 2.3750824
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3750824, 48.690704]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MALAKOFF",
+        "noauto": 242422.0,
+        "enseigne": "MARCEL PAGNOL  (EX CELTIC)",
+        "adrnumvoie": "17 RUE BERANGER",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92240.0,
+        "adrcommune": "MALAKOFF",
+        "adr": "17 RUE BERANGER,92240 MALAKOFF",
+        "lat": 48.8209065,
+        "lng": 2.3027209
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3027209, 48.8209065]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "NOGENT-SUR-MARNE",
+        "noauto": 291891.0,
+        "enseigne": "ROYAL PALACE",
+        "adrnumvoie": "165 GRANDE RUE CHARLES DE GAULLE",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94130.0,
+        "adrcommune": "NOGENT SUR MARNE",
+        "adr": "165 GRANDE RUE CHARLES DE GAULLE,94130 NOGENT SUR MARNE",
+        "lat": 48.8370532,
+        "lng": 2.4841488
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4841488, 48.8370532]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ORMESSON-SUR-MARNE",
+        "noauto": 299122.0,
+        "enseigne": "CENTRE CULTUREL",
+        "adrnumvoie": "22 AV WLADIMIR D ORMESSON",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94490.0,
+        "adrcommune": "ORMESSON SUR MARNE",
+        "adr": "22 AV WLADIMIR D ORMESSON,94490 ORMESSON SUR MARNE",
+        "lat": 48.7874484,
+        "lng": 2.5443153
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5443153, 48.7874484]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PANTIN",
+        "noauto": 303281.0,
+        "enseigne": "CINE 104",
+        "adrnumvoie": "104 AV JEAN LOLIVE",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93500.0,
+        "adrcommune": "PANTIN",
+        "adr": "104 AV JEAN LOLIVE,93500 PANTIN",
+        "lat": 48.8920037,
+        "lng": 2.4088775
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4088775, 48.8920037]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LE PLESSIS-ROBINSON",
+        "noauto": 314412.0,
+        "enseigne": "SALLE GERARD PHILIPE",
+        "adrnumvoie": "2 RUE ANDRE LE NOTRE",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92350.0,
+        "adrcommune": "LE PLESSIS ROBINSON",
+        "adr": "2 RUE ANDRE LE NOTRE,92350 LE PLESSIS ROBINSON",
+        "lat": 48.7787278,
+        "lng": 2.2547399
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2547399, 48.7787278]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PROVINS",
+        "noauto": 326550.0,
+        "enseigne": "LE REXY",
+        "adrnumvoie": "QUARTIER DELORT",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77160.0,
+        "adrcommune": "PROVINS",
+        "adr": "QUARTIER DELORT,77160 PROVINS",
+        "lat": 48.560149,
+        "lng": 3.299203
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.299203, 48.560149]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PUTEAUX",
+        "noauto": 327945.0,
+        "enseigne": "UGC CINE CITE LA DEFENSE",
+        "adrnumvoie": "LE DOME",
+        "adrcompleme": "CENTRE COMMERCIAL LES 4 TEMPS",
+        "dep": 92.0,
+        "adrcdpostal": 92800.0,
+        "adrcommune": "PUTEAUX",
+        "adr": "LE DOME,92800 PUTEAUX",
+        "lat": 48.891807,
+        "lng": 2.237164
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.237164, 48.891807]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "RIS-ORANGIS",
+        "noauto": 338332.0,
+        "enseigne": "CINOCHE",
+        "adrnumvoie": "ALLEE JEAN WIENER",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91130.0,
+        "adrcommune": "RIS ORANGIS",
+        "adr": "ALLEE JEAN WIENER,91130 RIS ORANGIS",
+        "lat": 48.6472041,
+        "lng": 2.4015326
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4015326, 48.6472041]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "RUEIL-MALMAISON",
+        "noauto": 347162.0,
+        "enseigne": "ARIEL",
+        "adrnumvoie": "99 AVENUE PAUL DOUMER",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92500.0,
+        "adrcommune": "RUEIL MALMAISON",
+        "adr": "99 AVENUE PAUL DOUMER,92500 RUEIL MALMAISON",
+        "lat": 48.8798544,
+        "lng": 2.1807131
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1807131, 48.8798544]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SARTROUVILLE",
+        "noauto": 353531.0,
+        "enseigne": "ABC",
+        "adrnumvoie": "6 RUE HOCHE",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78500.0,
+        "adrcommune": "SARTROUVILLE",
+        "adr": "6 RUE HOCHE,78500 SARTROUVILLE",
+        "lat": 48.9379238,
+        "lng": 2.159404
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.159404, 48.9379238]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINT-CLOUD",
+        "noauto": 379671.0,
+        "enseigne": "LES TROIS PIERROTS",
+        "adrnumvoie": "6-8 RUE DU MONT VALERIEN",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92210.0,
+        "adrcommune": "SAINT CLOUD",
+        "adr": "6-8 RUE DU MONT VALERIEN,92210 SAINT CLOUD",
+        "lat": 48.8525981,
+        "lng": 2.2162939
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2162939, 48.8525981]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINT-CYR-L ECOLE",
+        "noauto": 381152.0,
+        "enseigne": "LES YEUX D ELSA",
+        "adrnumvoie": "11 BIS AVE JEAN JAURES",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78210.0,
+        "adrcommune": "SAINT CYR L ECOLE",
+        "adr": "11 BIS AVE JEAN JAURES,78210 SAINT CYR L ECOLE",
+        "lat": 48.7996734,
+        "lng": 2.0675712
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0675712, 48.7996734]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINT-FARGEAU-PONTHIERRY",
+        "noauto": 384792.0,
+        "enseigne": "ESPACE CULTUREL LES 26 COULEURS",
+        "adrnumvoie": "IMPASSE PASTEUR",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77310.0,
+        "adrcommune": "SAINT-FARGEAU-PONTHIERRY",
+        "adr": "IMPASSE PASTEUR,77310 SAINT-FARGEAU-PONTHIERRY",
+        "lat": 48.541841,
+        "lng": 2.546711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.546711, 48.541841]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "TAVERNY",
+        "noauto": 422871.0,
+        "enseigne": "STUDIO 207",
+        "adrnumvoie": "207 RUE DE PARIS",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95150.0,
+        "adrcommune": "TAVERNY",
+        "adr": "207 RUE DE PARIS,95150 TAVERNY",
+        "lat": 49.0262651,
+        "lng": 2.2248213
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2248213, 49.0262651]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "TORCY",
+        "noauto": 429132.0,
+        "enseigne": "MEGA CGR",
+        "adrnumvoie": "CENTRE COMMERCIAL BAY 1 LOISIRS",
+        "adrcompleme": "PROMENADE DU 7ÃME ART",
+        "dep": 77.0,
+        "adrcdpostal": 77200.0,
+        "adrcommune": "TORCY",
+        "adr": "CENTRE COMMERCIAL BAY 1 LOISIRS,77200 TORCY",
+        "lat": 48.841358,
+        "lng": 2.655091
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.655091, 48.841358]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VAIRES-SUR-MARNE",
+        "noauto": 439271.0,
+        "enseigne": "LES VARIETES",
+        "adrnumvoie": "72 RUE DE CHELLES",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77360.0,
+        "adrcommune": "VAIRES SUR MARNE",
+        "adr": "72 RUE DE CHELLES,77360 VAIRES SUR MARNE",
+        "lat": 48.8742326,
+        "lng": 2.6323354
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.6323354, 48.8742326]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VANVES",
+        "noauto": 442002.0,
+        "enseigne": "LE VANVES",
+        "adrnumvoie": "12 RUE SADI CARNOT",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92170.0,
+        "adrcommune": "VANVES",
+        "adr": "12 RUE SADI CARNOT,92170 VANVES",
+        "lat": 48.8219709,
+        "lng": 2.2861818
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2861818, 48.8219709]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LE VESINET",
+        "noauto": 450503.0,
+        "enseigne": "CINEMA JEAN MARAIS",
+        "adrnumvoie": "59 BD CARNOT",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78110.0,
+        "adrcommune": "LE VESINET",
+        "adr": "59 BD CARNOT,78110 LE VESINET",
+        "lat": 48.893983,
+        "lng": 2.1344303
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1344303, 48.893983]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VILLEJUIF",
+        "noauto": 456762.0,
+        "enseigne": "CINEMA D ART ROMAIN ROLLAND",
+        "adrnumvoie": "18 RUE EUGENE VARLIN",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94800.0,
+        "adrcommune": "VILLEJUIF",
+        "adr": "18 RUE EUGENE VARLIN,94800 VILLEJUIF",
+        "lat": 48.7936318,
+        "lng": 2.3631847
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3631847, 48.7936318]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VINCENNES",
+        "noauto": 462321.0,
+        "enseigne": "LE VINCENNES",
+        "adrnumvoie": "30 AV DE PARIS",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94300.0,
+        "adrcommune": "VINCENNES",
+        "adr": "30 AV DE PARIS,94300 VINCENNES",
+        "lat": 48.845198,
+        "lng": 2.4345524
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4345524, 48.845198]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 8ME",
+        "noauto": 12.0,
+        "enseigne": "GEORGE V",
+        "adrnumvoie": "146 AVENUE DES CHAMPS ELYSEES",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75008.0,
+        "adrcommune": "PARIS",
+        "adr": "146 AVENUE DES CHAMPS ELYSEES,75008 PARIS",
+        "lat": 48.8729352,
+        "lng": 2.2981229
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2981229, 48.8729352]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 8ME",
+        "noauto": 31.0,
+        "enseigne": "UGC NORMANDIE",
+        "adrnumvoie": "116 AVENUE DES CHAMPS ELYSEES",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75008.0,
+        "adrcommune": "PARIS",
+        "adr": "116 AVENUE DES CHAMPS ELYSEES,75008 PARIS",
+        "lat": 48.8723063,
+        "lng": 2.3009149
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3009149, 48.8723063]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 8ME",
+        "noauto": 54.0,
+        "enseigne": "GAUMONT CHAMPS ELYSEES MARIGNAN",
+        "adrnumvoie": "27\/33 AVENUE DES CHAMPS ELYSEES",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75008.0,
+        "adrcommune": "PARIS",
+        "adr": "27\/33 AVENUE DES CHAMPS ELYSEES,75008 PARIS",
+        "lat": 48.8701759,
+        "lng": 2.3065559
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3065559, 48.8701759]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 9ME",
+        "noauto": 204.0,
+        "enseigne": "UGC OPERA",
+        "adrnumvoie": "32 BD DES ITALIENS",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75009.0,
+        "adrcommune": "PARIS",
+        "adr": "32 BD DES ITALIENS,75009 PARIS",
+        "lat": 48.8713491,
+        "lng": 2.335304
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.335304, 48.8713491]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 9ME",
+        "noauto": 301.0,
+        "enseigne": "MAX LINDER",
+        "adrnumvoie": "24 BD POISSONNIERE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75009.0,
+        "adrcommune": "PARIS",
+        "adr": "24 BD POISSONNIERE,75009 PARIS",
+        "lat": 48.8713917,
+        "lng": 2.3448744
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3448744, 48.8713917]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 2ME",
+        "noauto": 311.0,
+        "enseigne": "GRAND REX",
+        "adrnumvoie": "1 A 5 BD POISSONNIERE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75002.0,
+        "adrcommune": "PARIS",
+        "adr": "1 A 5 BD POISSONNIERE,75002 PARIS",
+        "lat": 48.8706396,
+        "lng": 2.3473377
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3473377, 48.8706396]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 451.0,
+        "enseigne": "UGC MONTPARNASSE",
+        "adrnumvoie": "83 BD DU MONTPARNASSE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "83 BD DU MONTPARNASSE,75006 PARIS",
+        "lat": 48.8434176,
+        "lng": 2.3253178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3253178, 48.8434176]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 801.0,
+        "enseigne": "MK2 PARNASSE",
+        "adrnumvoie": "11 RUE JULES CHAPLAIN",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "11 RUE JULES CHAPLAIN,75006 PARIS",
+        "lat": 48.8428774,
+        "lng": 2.3305353
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3305353, 48.8428774]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 814.0,
+        "enseigne": "LUCERNAIRE FORUM",
+        "adrnumvoie": "53 RUE NOTRE DAME DES CHAMPS",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "53 RUE NOTRE DAME DES CHAMPS,75006 PARIS",
+        "lat": 48.8442572,
+        "lng": 2.3303711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3303711, 48.8442572]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 883.0,
+        "enseigne": "STUDIO CHRISTINE",
+        "adrnumvoie": "4 RUE CHRISTINE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "4 RUE CHRISTINE,75006 PARIS",
+        "lat": 48.8543569,
+        "lng": 2.3403422
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3403422, 48.8543569]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 8ME",
+        "noauto": 1031.0,
+        "enseigne": "PUBLICIS ELYSEES",
+        "adrnumvoie": "133 AV DES CHAMPS ELYSEES",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75008.0,
+        "adrcommune": "PARIS",
+        "adr": "133 AV DES CHAMPS ELYSEES,75008 PARIS",
+        "lat": 48.8730008,
+        "lng": 2.2971952
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2971952, 48.8730008]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 1ER",
+        "noauto": 1681.0,
+        "enseigne": "UGC CINE CITE LES HALLES",
+        "adrnumvoie": "FORUM DES HALLES",
+        "adrcompleme": "7 PLACE DE LA ROTONDE",
+        "dep": 75.0,
+        "adrcdpostal": 75001.0,
+        "adrcommune": "PARIS",
+        "adr": "FORUM DES HALLES,75001 PARIS",
+        "lat": 48.8615056,
+        "lng": 2.3478223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3478223, 48.8615056]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 4ME",
+        "noauto": 1791.0,
+        "enseigne": "LATINA",
+        "adrnumvoie": "20 RUE DU TEMPLE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75004.0,
+        "adrcommune": "PARIS",
+        "adr": "20 RUE DU TEMPLE,75004 PARIS",
+        "lat": 48.8586418,
+        "lng": 2.3534791
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3534791, 48.8586418]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 12ME",
+        "noauto": 6212.0,
+        "enseigne": "MK2 NATION",
+        "adrnumvoie": "133 BOULEVARD DIDEROT",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75012.0,
+        "adrcommune": "PARIS",
+        "adr": "133 BOULEVARD DIDEROT,75012 PARIS",
+        "lat": 48.848241,
+        "lng": 2.3930938
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3930938, 48.848241]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 12ME",
+        "noauto": 6531.0,
+        "enseigne": "UGC LYON BASTILLE",
+        "adrnumvoie": "12 RUE DE LYON",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75012.0,
+        "adrcommune": "PARIS",
+        "adr": "12 RUE DE LYON,75012 PARIS",
+        "lat": 48.847411,
+        "lng": 2.3712194
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3712194, 48.847411]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 14ME",
+        "noauto": 8161.0,
+        "enseigne": "CHAPLIN DENFERT",
+        "adrnumvoie": "24 PLACE DENFERT ROCHEREAU",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75014.0,
+        "adrcommune": "PARIS",
+        "adr": "24 PLACE DENFERT ROCHEREAU,75014 PARIS",
+        "lat": 48.8337441,
+        "lng": 2.3313688
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3313688, 48.8337441]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 5ME",
+        "noauto": 8391.0,
+        "enseigne": "LE CINEMA DU PANTHEON",
+        "adrnumvoie": "13 RUE VICTOR COUSIN",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75005.0,
+        "adrcommune": "PARIS",
+        "adr": "13 RUE VICTOR COUSIN,75005 PARIS",
+        "lat": 48.8475072,
+        "lng": 2.3422536
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3422536, 48.8475072]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 5ME",
+        "noauto": 8425.0,
+        "enseigne": "QUARTIER LATIN I",
+        "adrnumvoie": "9 RUE CHAMPOLLION",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75005.0,
+        "adrcommune": "PARIS",
+        "adr": "9 RUE CHAMPOLLION,75005 PARIS",
+        "lat": 48.8495821,
+        "lng": 2.3427511
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3427511, 48.8495821]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 13ME",
+        "noauto": 8621.0,
+        "enseigne": "GAUMONT GOBELINS",
+        "adrnumvoie": "58 AVENUE DES GOBELINS",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75013.0,
+        "adrcommune": "PARIS",
+        "adr": "58 AVENUE DES GOBELINS,75013 PARIS",
+        "lat": 48.8335483,
+        "lng": 2.3538612
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3538612, 48.8335483]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 13ME",
+        "noauto": 8632.0,
+        "enseigne": "UGC  GOBELINS",
+        "adrnumvoie": "66 BIS AV DES GOBELINS",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75013.0,
+        "adrcommune": "PARIS",
+        "adr": "66 BIS AV DES GOBELINS,75013 PARIS",
+        "lat": 48.8330255,
+        "lng": 2.3541765
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3541765, 48.8330255]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 17ME",
+        "noauto": 9802.0,
+        "enseigne": "CLUB DE L ETOILE",
+        "adrnumvoie": "14 RUE TROYON",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75017.0,
+        "adrcommune": "PARIS",
+        "adr": "14 RUE TROYON,75017 PARIS",
+        "lat": 48.8760923,
+        "lng": 2.2953581
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2953581, 48.8760923]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ACHERES",
+        "noauto": 10992.0,
+        "enseigne": "PANDORA",
+        "adrnumvoie": "6 ALLEE SIMONE SIGNORET",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78260.0,
+        "adrcommune": "ACHERES",
+        "adr": "6 ALLEE SIMONE SIGNORET,78260 ACHERES",
+        "lat": 48.9605602,
+        "lng": 2.0678844
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0678844, 48.9605602]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ASNIERES-SUR-SEINE",
+        "noauto": 26662.0,
+        "enseigne": "L ALCAZAR",
+        "adrnumvoie": "1 RUE DE LA STATION",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92600.0,
+        "adrcommune": "ASNIERES",
+        "adr": "1 RUE DE LA STATION,92600 ASNIERES",
+        "lat": 48.9063184,
+        "lng": 2.2840593
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2840593, 48.9063184]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ATHIS-MONS",
+        "noauto": 27573.0,
+        "enseigne": "CINEMA VENTURA",
+        "adrnumvoie": "RUE SAMUEL DESBORDES",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91200.0,
+        "adrcommune": "ATHIS MONS",
+        "adr": "RUE SAMUEL DESBORDES,91200 ATHIS MONS",
+        "lat": 48.71015,
+        "lng": 2.387677
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.387677, 48.71015]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BAGNEUX",
+        "noauto": 35953.0,
+        "enseigne": "THEATRE VICTOR HUGO",
+        "adrnumvoie": "14 AV VICTOR HUGO",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92220.0,
+        "adrcommune": "BAGNEUX",
+        "adr": "14 AV VICTOR HUGO,92220 BAGNEUX",
+        "lat": 48.8042574,
+        "lng": 2.321553
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.321553, 48.8042574]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BRETIGNY-SUR-ORGE",
+        "noauto": 73423.0,
+        "enseigne": "JEAN COCTEAU",
+        "adrnumvoie": "3 RUE ANATOLE FRANCE",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91220.0,
+        "adrcommune": "BRETIGNY SUR ORGE",
+        "adr": "3 RUE ANATOLE FRANCE,91220 BRETIGNY SUR ORGE",
+        "lat": 48.6086019,
+        "lng": 2.3041789
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3041789, 48.6086019]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CHATENAY-MALABRY",
+        "noauto": 105652.0,
+        "enseigne": "REX",
+        "adrnumvoie": "364 AVE DE LA DIVISION LECLERC",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92290.0,
+        "adrcommune": "CHATENAY MALABRY",
+        "adr": "364 AVE DE LA DIVISION LECLERC,92290 CHATENAY MALABRY",
+        "lat": 48.7656677,
+        "lng": 2.2598128
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2598128, 48.7656677]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CHESSY",
+        "noauto": 110351.0,
+        "enseigne": "GAUMONT DISNEY VILLAGE",
+        "adrnumvoie": "1 ESPLANADE FRANCOIS TRUFFAUT",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77705.0,
+        "adrcommune": "MARNE LA VALLEE",
+        "adr": "1 ESPLANADE FRANCOIS TRUFFAUT,77705 MARNE LA VALLEE",
+        "lat": 48.869083,
+        "lng": 2.782994
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.782994, 48.869083]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CLICHY",
+        "noauto": 115104.0,
+        "enseigne": "CINEMA RUTEBEUF",
+        "adrnumvoie": "16-18  ALLEES LEON-GAMBETTA",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92110.0,
+        "adrcommune": "CLICHY-LA-GARENNE",
+        "adr": "16-18  ALLEES LEON-GAMBETTA,92110 CLICHY-LA-GARENNE",
+        "lat": 48.9020832,
+        "lng": 2.3093243
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3093243, 48.9020832]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "COLOMBES",
+        "noauto": 117025.0,
+        "enseigne": "M J C THEATRE DE COLOMBES",
+        "adrnumvoie": "96, 98 RUE ST DENIS",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92700.0,
+        "adrcommune": "COLOMBES",
+        "adr": "96, 98 RUE ST DENIS,92700 COLOMBES",
+        "lat": 48.9243559,
+        "lng": 2.2505549
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2505549, 48.9243559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "COLOMBES",
+        "noauto": 117051.0,
+        "enseigne": "CLUB",
+        "adrnumvoie": "27 A 39 RUE DU BOURNARD",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92700.0,
+        "adrcommune": "COLOMBES",
+        "adr": "27 A 39 RUE DU BOURNARD,92700 COLOMBES",
+        "lat": 48.9229968,
+        "lng": 2.2548736
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2548736, 48.9229968]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "COMBS-LA-VILLE",
+        "noauto": 117921.0,
+        "enseigne": "LA COUPOLE",
+        "adrnumvoie": "RUE JEAN FRANCOIS MILLET",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77380.0,
+        "adrcommune": "COMBS LA VILLE",
+        "adr": "RUE JEAN FRANCOIS MILLET,77380 COMBS LA VILLE",
+        "lat": 48.659706,
+        "lng": 2.566171
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.566171, 48.659706]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CRETEIL",
+        "noauto": 128541.0,
+        "enseigne": "CINEMA DU PALAIS",
+        "adrnumvoie": "40 ALLEE PARMENTIER",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94000.0,
+        "adrcommune": "CRETEIL",
+        "adr": "40 ALLEE PARMENTIER,94000 CRETEIL",
+        "lat": 48.7874196,
+        "lng": 2.4458086
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4458086, 48.7874196]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "DAMMARIE-LES-LYS",
+        "noauto": 133212.0,
+        "enseigne": "PATHE DAMMARIE",
+        "adrnumvoie": "LA CARTONNERIE",
+        "adrcompleme": "824 AVENUE DU LYS",
+        "dep": 77.0,
+        "adrcdpostal": 77190.0,
+        "adrcommune": "DAMMARIE LES LYS",
+        "adr": "LA CARTONNERIE,77190 DAMMARIE LES LYS",
+        "lat": 48.5159662,
+        "lng": 2.6250332
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.6250332, 48.5159662]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "DOURDAN",
+        "noauto": 142171.0,
+        "enseigne": "PARTERRE",
+        "adrnumvoie": "SQUARE DE LAC MEGANTIC",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91410.0,
+        "adrcommune": "DOURDAN",
+        "adr": "SQUARE DE LAC MEGANTIC,91410 DOURDAN",
+        "lat": 48.529171,
+        "lng": 2.0152549
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0152549, 48.529171]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ENGHIEN-LES-BAINS",
+        "noauto": 147071.0,
+        "enseigne": "FRANCAIS",
+        "adrnumvoie": "38 RUE DU GENERAL DE GAULLE",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95880.0,
+        "adrcommune": "ENGHIEN LES BAINS",
+        "adr": "38 RUE DU GENERAL DE GAULLE,95880 ENGHIEN LES BAINS",
+        "lat": 48.9709161,
+        "lng": 2.3071932
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3071932, 48.9709161]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ENGHIEN-LES-BAINS",
+        "noauto": 147084.0,
+        "enseigne": "CENTRE DES ARTS",
+        "adrnumvoie": "12-16, RUE DE LA LIBERATION",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95880.0,
+        "adrcommune": "ENGHIEN-LES-BAINS",
+        "adr": "12-16, RUE DE LA LIBERATION,95880 ENGHIEN-LES-BAINS",
+        "lat": 48.9717445,
+        "lng": 2.3049758
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3049758, 48.9717445]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "EPINAY-SUR-SEINE",
+        "noauto": 148321.0,
+        "enseigne": "ESPACE CINE",
+        "adrnumvoie": "RUE DU GENERAL JULIEN",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93800.0,
+        "adrcommune": "EPINAY SUR SEINE",
+        "adr": "RUE DU GENERAL JULIEN,93800 EPINAY SUR SEINE",
+        "lat": 48.953984,
+        "lng": 2.3124186
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3124186, 48.953984]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "FONTAINEBLEAU",
+        "noauto": 162844.0,
+        "enseigne": "ERMITAGE",
+        "adrnumvoie": "6 RUE DE FRANCE",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77300.0,
+        "adrcommune": "FONTAINEBLEAU",
+        "adr": "6 RUE DE FRANCE,77300 FONTAINEBLEAU",
+        "lat": 48.404111,
+        "lng": 2.6996237
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.6996237, 48.404111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "FRANCONVILLE",
+        "noauto": 168193.0,
+        "enseigne": "CINE HENRI LANGLOIS",
+        "adrnumvoie": "32 BIS RUE DE LA STATION",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95130.0,
+        "adrcommune": "FRANCONVILLE",
+        "adr": "32 BIS RUE DE LA STATION,95130 FRANCONVILLE",
+        "lat": 48.9860277,
+        "lng": 2.2317351
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2317351, 48.9860277]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "GARCHES",
+        "noauto": 172914.0,
+        "enseigne": "CINE GARCHES",
+        "adrnumvoie": "86 GRANDE RUE",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92380.0,
+        "adrcommune": "GARCHES",
+        "adr": "86 GRANDE RUE,92380 GARCHES",
+        "lat": 48.844027,
+        "lng": 2.1890681
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1890681, 48.844027]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "GARGES-LES-GONESSE",
+        "noauto": 173332.0,
+        "enseigne": "JACQUES BREL A",
+        "adrnumvoie": "PLACE DE L'HOTEL DE VILLE",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95140.0,
+        "adrcommune": "GARGES LES GONESSE",
+        "adr": "PLACE DE L'HOTEL DE VILLE,95140 GARGES LES GONESSE",
+        "lat": 48.971933,
+        "lng": 2.400197
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.400197, 48.971933]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "GONESSE",
+        "noauto": 179852.0,
+        "enseigne": "CINE THEATRE JACQUES PREVERT",
+        "adrnumvoie": "PLACE AIME-CESAIRE",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95500.0,
+        "adrcommune": "GONESSE",
+        "adr": "PLACE AIME-CESAIRE,95500 GONESSE",
+        "lat": 48.9638822,
+        "lng": 2.5860635
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5860635, 48.9638822]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "L HAY-LES-ROSES",
+        "noauto": 193442.0,
+        "enseigne": "LA TOURNELLE",
+        "adrnumvoie": "14 RUE DISPAN",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94240.0,
+        "adrcommune": "L HAY LES ROSES",
+        "adr": "14 RUE DISPAN,94240 L HAY LES ROSES",
+        "lat": 48.7797768,
+        "lng": 2.3390534
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3390534, 48.7797768]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LIEUSAINT",
+        "noauto": 226040.0,
+        "enseigne": "GAUMONT CARRE SENART",
+        "adrnumvoie": "CENTRE COMMERCIAL CARRE SENART",
+        "adrcompleme": "3 ALLEE DU PREAMBULE",
+        "dep": 77.0,
+        "adrcdpostal": 77566.0,
+        "adrcommune": "LIEUSAINT CEDEX",
+        "adr": "CENTRE COMMERCIAL CARRE SENART,77566 LIEUSAINT CEDEX",
+        "lat": 48.61613,
+        "lng": 2.545992
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.545992, 48.61613]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LES LILAS",
+        "noauto": 226883.0,
+        "enseigne": "THEATRE DU GARDE CHASSE",
+        "adrnumvoie": "2 AVENUE WALDECK ROUSSEAU",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93260.0,
+        "adrcommune": "LES LILAS",
+        "adr": "2 AVENUE WALDECK ROUSSEAU,93260 LES LILAS",
+        "lat": 48.8809778,
+        "lng": 2.4200285
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4200285, 48.8809778]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MAISONS-LAFFITTE",
+        "noauto": 242003.0,
+        "enseigne": "L'ATALANTE",
+        "adrnumvoie": "48 RUE DU PRIEURE",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78600.0,
+        "adrcommune": "MAISONS LAFFITTE",
+        "adr": "48 RUE DU PRIEURE,78600 MAISONS LAFFITTE",
+        "lat": 48.9463188,
+        "lng": 2.1470833
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1470833, 48.9463188]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MELUN",
+        "noauto": 255991.0,
+        "enseigne": "VARIETES",
+        "adrnumvoie": "20 BD CHAMBLAIN",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77000.0,
+        "adrcommune": "MELUN",
+        "adr": "20 BD CHAMBLAIN,77000 MELUN",
+        "lat": 48.5333989,
+        "lng": 2.6550145
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.6550145, 48.5333989]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MITRY-MORY",
+        "noauto": 263912.0,
+        "enseigne": "CONCORDE",
+        "adrnumvoie": "4 AV DES BOSQUETS",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77290.0,
+        "adrcommune": "MITRY MORY",
+        "adr": "4 AV DES BOSQUETS,77290 MITRY MORY",
+        "lat": 48.9569172,
+        "lng": 2.6030182
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.6030182, 48.9569172]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MONTIGNY-LE-BRETONNEUX",
+        "noauto": 273071.0,
+        "enseigne": "JACQUES BREL",
+        "adrnumvoie": "RUE DE LA MARE AUX CARATS",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78180.0,
+        "adrcommune": "MONTIGNY LE BRETONNEUX",
+        "adr": "RUE DE LA MARE AUX CARATS,78180 MONTIGNY LE BRETONNEUX",
+        "lat": 48.769697,
+        "lng": 2.033931
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.033931, 48.769697]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MONTREUIL",
+        "noauto": 276083.0,
+        "enseigne": "MELIES",
+        "adrnumvoie": "9 AV RESISTANCE CROIX CHAVAUX",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93100.0,
+        "adrcommune": "MONTREUIL",
+        "adr": "9 AV RESISTANCE CROIX CHAVAUX,93100 MONTREUIL",
+        "lat": 48.858055,
+        "lng": 2.435764
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.435764, 48.858055]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MONTROUGE",
+        "noauto": 276554.0,
+        "enseigne": "CINE MONTROUGE",
+        "adrnumvoie": "88 RUE RACINE",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92120.0,
+        "adrcommune": "MONTROUGE",
+        "adr": "88 RUE RACINE,92120 MONTROUGE",
+        "lat": 48.8134684,
+        "lng": 2.3106976
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3106976, 48.8134684]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LES MUREAUX",
+        "noauto": 283043.0,
+        "enseigne": "FREDERIC DARD CLUB A",
+        "adrnumvoie": "77 RUE PAUL DOUMER",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78130.0,
+        "adrcommune": "LES MUREAUX",
+        "adr": "77 RUE PAUL DOUMER,78130 LES MUREAUX",
+        "lat": 48.9938892,
+        "lng": 1.9102166
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.9102166, 48.9938892]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "NOISIEL",
+        "noauto": 292341.0,
+        "enseigne": "LA FERME DU BUISSON SALLE",
+        "adrnumvoie": "ALLEE DE LA FERME",
+        "adrcompleme": "NOISIEL",
+        "dep": 77.0,
+        "adrcdpostal": 77448.0,
+        "adrcommune": "MARNE-LA-VALLEE CEDEX 2",
+        "adr": "ALLEE DE LA FERME,77448 MARNE-LA-VALLEE CEDEX 2",
+        "lat": 48.844892,
+        "lng": 2.624227
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.624227, 48.844892]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "OZOIR-LA-FERRIERE",
+        "noauto": 301781.0,
+        "enseigne": "LE PIERRE BRASSEUR",
+        "adrnumvoie": "103 AV DU GENERAL DE GAULLE",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77330.0,
+        "adrcommune": "OZOIR LA FERRIERE",
+        "adr": "103 AV DU GENERAL DE GAULLE,77330 OZOIR LA FERRIERE",
+        "lat": 48.7633159,
+        "lng": 2.6646724
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.6646724, 48.7633159]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARAY-VIEILLE-POSTE",
+        "noauto": 303445.0,
+        "enseigne": "SALLE DES FETES",
+        "adrnumvoie": "1, RUE ALSACE-LORRAINE",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91550.0,
+        "adrcommune": "PARAY VIEILLE POSTE",
+        "adr": "1, RUE ALSACE-LORRAINE,91550 PARAY VIEILLE POSTE",
+        "lat": 48.7125221,
+        "lng": 2.36349
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.36349, 48.7125221]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PUTEAUX",
+        "noauto": 327961.0,
+        "enseigne": "LE CENTRAL",
+        "adrnumvoie": "134 RUE DE LA REPUBLIQUE",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92800.0,
+        "adrcommune": "PUTEAUX",
+        "adr": "134 RUE DE LA REPUBLIQUE,92800 PUTEAUX",
+        "lat": 48.8843457,
+        "lng": 2.237082
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.237082, 48.8843457]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "RAMBOUILLET",
+        "noauto": 331273.0,
+        "enseigne": "THEATRE LE NICKEL (EX-CAC NICKELODEON)",
+        "adrnumvoie": "50 RUE DU MUGUET",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78120.0,
+        "adrcommune": "RAMBOUILLET",
+        "adr": "50 RUE DU MUGUET,78120 RAMBOUILLET",
+        "lat": 48.6484118,
+        "lng": 1.8412396
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.8412396, 48.6484118]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ROMAINVILLE",
+        "noauto": 341652.0,
+        "enseigne": "LE TRIANON",
+        "adrnumvoie": "PL CARNOT ET 1 RUE ETIENNE DOLET",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93230.0,
+        "adrcommune": "ROMAINVILLE",
+        "adr": "PL CARNOT ET 1 RUE ETIENNE DOLET,93230 ROMAINVILLE",
+        "lat": 48.883822,
+        "lng": 2.4407646
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4407646, 48.883822]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAVIGNY-LE-TEMPLE",
+        "noauto": 356431.0,
+        "enseigne": "ESPACE PREVERT",
+        "adrnumvoie": "QUARTIER DU PLESSIS LE ROI",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77176.0,
+        "adrcommune": "SAVIGNY LE TEMPLE",
+        "adr": "QUARTIER DU PLESSIS LE ROI,77176 SAVIGNY LE TEMPLE",
+        "lat": 48.604294,
+        "lng": 2.566235
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.566235, 48.604294]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SCEAUX",
+        "noauto": 356871.0,
+        "enseigne": "TRIANON",
+        "adrnumvoie": "3 BIS RUE MARGUERITE RENAUDIN",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92330.0,
+        "adrcommune": "SCEAUX",
+        "adr": "3 BIS RUE MARGUERITE RENAUDIN,92330 SCEAUX",
+        "lat": 48.7776497,
+        "lng": 2.2923132
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2923132, 48.7776497]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINT-ARNOULT-EN-YVELINES",
+        "noauto": 374021.0,
+        "enseigne": "LE CRATERE",
+        "adrnumvoie": "RUE JEAN MOULIN",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78730.0,
+        "adrcommune": "SAINT ARNOULT EN YVELINES",
+        "adr": "RUE JEAN MOULIN,78730 SAINT ARNOULT EN YVELINES",
+        "lat": 48.572568,
+        "lng": 1.936892
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.936892, 48.572568]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINT-GRATIEN",
+        "noauto": 390452.0,
+        "enseigne": "LES TOILES OLYMPIC",
+        "adrnumvoie": "PLACE FRANCOIS TRUFFAUT",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95210.0,
+        "adrcommune": "SAINT GRATIEN",
+        "adr": "PLACE FRANCOIS TRUFFAUT,95210 SAINT GRATIEN",
+        "lat": 48.9679,
+        "lng": 2.285247
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.285247, 48.9679]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINT-MICHEL-SUR-ORGE",
+        "noauto": 406812.0,
+        "enseigne": "CINES CARNE",
+        "adrnumvoie": "PLACE MARCEL CARNE",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91240.0,
+        "adrcommune": "SAINT MICHEL SUR ORGE",
+        "adr": "PLACE MARCEL CARNE,91240 SAINT MICHEL SUR ORGE",
+        "lat": 48.6371869,
+        "lng": 2.3212184
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3212184, 48.6371869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINT-OUEN",
+        "noauto": 408441.0,
+        "enseigne": "CINEMA FLOREAL",
+        "adrnumvoie": "7\/9 RUE DES ROSIERS",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93400.0,
+        "adrcommune": "SAINT OUEN",
+        "adr": "7\/9 RUE DES ROSIERS,93400 SAINT OUEN",
+        "lat": 48.9077966,
+        "lng": 2.333592
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.333592, 48.9077966]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINT-SOUPPLETS",
+        "noauto": 417170.0,
+        "enseigne": "CENTRE SOCIO-CULTUREL",
+        "adrnumvoie": "PLACE DE L'EGLISE",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77165.0,
+        "adrcommune": "SAINT-SOUPPLETS",
+        "adr": "PLACE DE L'EGLISE,77165 SAINT-SOUPPLETS",
+        "lat": 49.0035533,
+        "lng": 2.7684378
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.7684378, 49.0035533]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LES ULIS",
+        "noauto": 437562.0,
+        "enseigne": "UGC LES ULIS",
+        "adrnumvoie": "CENTRE COMMERCIAL LES ULIS 2",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91440.0,
+        "adrcommune": "BURES SUR YVETTE",
+        "adr": "CENTRE COMMERCIAL LES ULIS 2,91440 BURES SUR YVETTE",
+        "lat": 48.696893,
+        "lng": 2.163977
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.163977, 48.696893]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VAUREAL",
+        "noauto": 444330.0,
+        "enseigne": "L'ANTARES",
+        "adrnumvoie": "1, PLACE DU COEUR BATTANT",
+        "adrcompleme": "VAUREAL",
+        "dep": 95.0,
+        "adrcdpostal": 95038.0,
+        "adrcommune": "CERGY-PONTOISE CEDEX",
+        "adr": "1, PLACE DU COEUR BATTANT,95038 CERGY-PONTOISE CEDEX",
+        "lat": 49.03051,
+        "lng": 2.020794
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.020794, 49.03051]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VELIZY-VILLACOUBLAY",
+        "noauto": 445702.0,
+        "enseigne": "UGC VELIZY",
+        "adrnumvoie": "CENTRE COMMERCIAL VELIZY II",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78140.0,
+        "adrcommune": "VELIZY VILLACOUBLAY",
+        "adr": "CENTRE COMMERCIAL VELIZY II,78140 VELIZY VILLACOUBLAY",
+        "lat": 48.781269,
+        "lng": 2.2195886
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2195886, 48.781269]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VERSAILLES",
+        "noauto": 449661.0,
+        "enseigne": "CYRANO",
+        "adrnumvoie": "7 RUE RAMEAU",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78000.0,
+        "adrcommune": "VERSAILLES",
+        "adr": "7 RUE RAMEAU,78000 VERSAILLES",
+        "lat": 48.8079951,
+        "lng": 2.1310068
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1310068, 48.8079951]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VERSAILLES",
+        "noauto": 449702.0,
+        "enseigne": "ROXANE",
+        "adrnumvoie": "6 RUE ST SIMON",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78000.0,
+        "adrcommune": "VERSAILLES",
+        "adr": "6 RUE ST SIMON,78000 VERSAILLES",
+        "lat": 48.8039508,
+        "lng": 2.1334434
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1334434, 48.8039508]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VILLIERS-SUR-MARNE",
+        "noauto": 461663.0,
+        "enseigne": "LE CASINO",
+        "adrnumvoie": "13 RUE GUILLAUME BUDE",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94350.0,
+        "adrcommune": "VILLIERS-SUR-MARNE",
+        "adr": "13 RUE GUILLAUME BUDE,94350 VILLIERS-SUR-MARNE",
+        "lat": 48.8261611,
+        "lng": 2.5422664
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5422664, 48.8261611]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VIRY-CHATILLON",
+        "noauto": 463353.0,
+        "enseigne": "CALYPSO A",
+        "adrnumvoie": "38 RUE VICTOR BASCH",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91170.0,
+        "adrcommune": "VIRY CHATILLON",
+        "adr": "38 RUE VICTOR BASCH,91170 VIRY CHATILLON",
+        "lat": 48.6816797,
+        "lng": 2.3791186
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3791186, 48.6816797]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "YERRES",
+        "noauto": 469245.0,
+        "enseigne": "CINEMA PARADISO (EX-STUDIO 209)",
+        "adrnumvoie": "2 RUE MARC SANGNIER",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91330.0,
+        "adrcommune": "YERRES",
+        "adr": "2 RUE MARC SANGNIER,91330 YERRES",
+        "lat": 48.715245,
+        "lng": 2.4898989
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4898989, 48.715245]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VILLENEUVE-LA-GARENNE",
+        "noauto": 575001.0,
+        "enseigne": "MEGARAMA",
+        "adrnumvoie": "44 AVENUE DE LA LONGUE BERTRANE",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92390.0,
+        "adrcommune": "VILLENEUVE LA GARENNE",
+        "adr": "44 AVENUE DE LA LONGUE BERTRANE,92390 VILLENEUVE LA GARENNE",
+        "lat": 48.9308691,
+        "lng": 2.3208674
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3208674, 48.9308691]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 15ME",
+        "noauto": 431.0,
+        "enseigne": "BIENVENUE MONTPARNASSE",
+        "adrnumvoie": "8 BIS RUE DE L ARRIVEE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75015.0,
+        "adrcommune": "PARIS",
+        "adr": "8 BIS RUE DE L ARRIVEE,75015 PARIS",
+        "lat": 48.8435592,
+        "lng": 2.3220527
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3220527, 48.8435592]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 721.0,
+        "enseigne": "MK2 HAUTEFEUILLE",
+        "adrnumvoie": "7 RUE HAUTEFEUILLE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "7 RUE HAUTEFEUILLE,75006 PARIS",
+        "lat": 48.8522436,
+        "lng": 2.3428539
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3428539, 48.8522436]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 5ME",
+        "noauto": 733.0,
+        "enseigne": "STUDIO GALANDE",
+        "adrnumvoie": "42 RUE GALANDE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75005.0,
+        "adrcommune": "PARIS",
+        "adr": "42 RUE GALANDE,75005 PARIS",
+        "lat": 48.8515931,
+        "lng": 2.3470237
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3470237, 48.8515931]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 741.0,
+        "enseigne": "LUXEMBOURG",
+        "adrnumvoie": "67 69 RUE MONSIEUR LE PRINCE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "67 69 RUE MONSIEUR LE PRINCE,75006 PARIS",
+        "lat": 48.8482979,
+        "lng": 2.3407814
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3407814, 48.8482979]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 7ME",
+        "noauto": 881.0,
+        "enseigne": "LA PAGODE",
+        "adrnumvoie": "57 BIS RUE DE BABYLONE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75007.0,
+        "adrcommune": "PARIS",
+        "adr": "57 BIS RUE DE BABYLONE,75007 PARIS",
+        "lat": 48.8516879,
+        "lng": 2.3169916
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3169916, 48.8516879]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 10ME",
+        "noauto": 1392.0,
+        "enseigne": "L'ARCHIPEL",
+        "adrnumvoie": "17 BD DE STRASBOURG",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75010.0,
+        "adrcommune": "PARIS",
+        "adr": "17 BD DE STRASBOURG,75010 PARIS",
+        "lat": 48.8704463,
+        "lng": 2.3546794
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3546794, 48.8704463]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 10ME",
+        "noauto": 1393.0,
+        "enseigne": "LE BRADY",
+        "adrnumvoie": "39 BOULEVARD DE STRASBOURG",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75010.0,
+        "adrcommune": "PARIS",
+        "adr": "39 BOULEVARD DE STRASBOURG,75010 PARIS",
+        "lat": 48.8716629,
+        "lng": 2.355382
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.355382, 48.8716629]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 9ME",
+        "noauto": 2982.0,
+        "enseigne": "CAUMARTIN 1  EX CINEVOG",
+        "adrnumvoie": "101 RUE ST LAZARE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75009.0,
+        "adrcommune": "PARIS",
+        "adr": "101 RUE ST LAZARE,75009 PARIS",
+        "lat": 48.875624,
+        "lng": 2.3279515
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3279515, 48.875624]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 8ME",
+        "noauto": 2991.0,
+        "enseigne": "ST LAZARE PASQUIER I",
+        "adrnumvoie": "44 RUE PASQUIER",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75008.0,
+        "adrcommune": "PARIS",
+        "adr": "44 RUE PASQUIER,75008 PARIS",
+        "lat": 48.8747945,
+        "lng": 2.3238675
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3238675, 48.8747945]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 19ME",
+        "noauto": 4571.0,
+        "enseigne": "LA GEODE",
+        "adrnumvoie": "26 AV CORENTIN CARIOU",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75019.0,
+        "adrcommune": "PARIS",
+        "adr": "26 AV CORENTIN CARIOU,75019 PARIS",
+        "lat": 48.8963102,
+        "lng": 2.3843277
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3843277, 48.8963102]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 19ME",
+        "noauto": 4731.0,
+        "enseigne": "MK2 QUAI DE SEINE",
+        "adrnumvoie": "14 QUAI DE LA SEINE",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75019.0,
+        "adrcommune": "PARIS",
+        "adr": "14 QUAI DE LA SEINE,75019 PARIS",
+        "lat": 48.8848412,
+        "lng": 2.3707189
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3707189, 48.8848412]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 11ME",
+        "noauto": 5852.0,
+        "enseigne": "MAJESTIC BASTILLE",
+        "adrnumvoie": "4 BD RICHARD LENOIR",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75011.0,
+        "adrcommune": "PARIS",
+        "adr": "4 BD RICHARD LENOIR,75011 PARIS",
+        "lat": 48.8539316,
+        "lng": 2.3698147
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3698147, 48.8539316]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 14ME",
+        "noauto": 8132.0,
+        "enseigne": "GAUMONT ALESIA",
+        "adrnumvoie": "73 AVENUE DU GENERAL LECLERC",
+        "adrcompleme": "50 RUE D'ALESIA",
+        "dep": 75.0,
+        "adrcdpostal": 75014.0,
+        "adrcommune": "PARIS",
+        "adr": "73 AVENUE DU GENERAL LECLERC,75014 PARIS",
+        "lat": 48.8281353,
+        "lng": 2.3273519
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3273519, 48.8281353]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 6ME",
+        "noauto": 8331.0,
+        "enseigne": "UGC DANTON",
+        "adrnumvoie": "99 BD ST GERMAIN",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75006.0,
+        "adrcommune": "PARIS",
+        "adr": "99 BD ST GERMAIN,75006 PARIS",
+        "lat": 48.8522356,
+        "lng": 2.3389665
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3389665, 48.8522356]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 5ME",
+        "noauto": 8374.0,
+        "enseigne": "LE DESPERADO",
+        "adrnumvoie": "23 RUE DES ECOLES",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75005.0,
+        "adrcommune": "PARIS",
+        "adr": "23 RUE DES ECOLES,75005 PARIS",
+        "lat": 48.8484137,
+        "lng": 2.3490174
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3490174, 48.8484137]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 5ME",
+        "noauto": 8392.0,
+        "enseigne": "ACCATONE EX STUDIO CUJAS",
+        "adrnumvoie": "20 RUE CUJAS",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75005.0,
+        "adrcommune": "PARIS",
+        "adr": "20 RUE CUJAS,75005 PARIS",
+        "lat": 48.8481305,
+        "lng": 2.3420018
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3420018, 48.8481305]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 5ME",
+        "noauto": 8513.0,
+        "enseigne": "REFLET MEDICIS 2",
+        "adrnumvoie": "7 RUE CHAMPOLLION",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75005.0,
+        "adrcommune": "PARIS",
+        "adr": "7 RUE CHAMPOLLION,75005 PARIS",
+        "lat": 48.8497239,
+        "lng": 2.342869
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.342869, 48.8497239]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "PARIS 5ME",
+        "noauto": 8522.0,
+        "enseigne": "LA CLEF",
+        "adrnumvoie": "21 RUE CLEF 34 RUE DAUBENTON",
+        "adrcompleme": null,
+        "dep": 75.0,
+        "adrcdpostal": 75005.0,
+        "adrcommune": "PARIS",
+        "adr": "21 RUE CLEF 34 RUE DAUBENTON,75005 PARIS",
+        "lat": 48.8411301,
+        "lng": 2.3526003
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3526003, 48.8411301]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ARGENTEUIL",
+        "noauto": 23301.0,
+        "enseigne": "JEAN GABIN (EX-GALILEE)",
+        "adrnumvoie": "PARC DE L'HOTEL DE VILLE",
+        "adrcompleme": "12-14 BOULEVARD LEON FEIX",
+        "dep": 95.0,
+        "adrcdpostal": 95100.0,
+        "adrcommune": "ARGENTEUIL",
+        "adr": "PARC DE L'HOTEL DE VILLE,95100 ARGENTEUIL",
+        "lat": 48.946898,
+        "lng": 2.249244
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.249244, 48.946898]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "AUBERVILLIERS",
+        "noauto": 28264.0,
+        "enseigne": "STUDIO",
+        "adrnumvoie": "2 RUE EDOUARD POISSON",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93300.0,
+        "adrcommune": "AUBERVILLIERS",
+        "adr": "2 RUE EDOUARD POISSON,93300 AUBERVILLIERS",
+        "lat": 48.9107529,
+        "lng": 2.3837787
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3837787, 48.9107529]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LE BLANC-MESNIL",
+        "noauto": 57582.0,
+        "enseigne": "CINEMA LOUIS DAQUIN 2",
+        "adrnumvoie": "76 RUE VICTOR HUGO",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93150.0,
+        "adrcommune": "LE BLANC MESNIL",
+        "adr": "76 RUE VICTOR HUGO,93150 LE BLANC MESNIL",
+        "lat": 48.9423416,
+        "lng": 2.4564341
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4564341, 48.9423416]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "BOURG-LA-REINE",
+        "noauto": 68212.0,
+        "enseigne": "AUDITORIUM DU CONSERVATOIRE",
+        "adrnumvoie": "11 BD CARNOT",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92340.0,
+        "adrcommune": "BOURG LA REINE",
+        "adr": "11 BD CARNOT,92340 BOURG LA REINE",
+        "lat": 48.7788984,
+        "lng": 2.317368
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.317368, 48.7788984]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CACHAN",
+        "noauto": 81101.0,
+        "enseigne": "LA PLEIADE",
+        "adrnumvoie": "12 AVENUE COUSIN DE MERICOURT",
+        "adrcompleme": "B.P. 9",
+        "dep": 94.0,
+        "adrcdpostal": 94230.0,
+        "adrcommune": "CACHAN",
+        "adr": "12 AVENUE COUSIN DE MERICOURT,94230 CACHAN",
+        "lat": 48.7956596,
+        "lng": 2.3354106
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3354106, 48.7956596]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CERGY",
+        "noauto": 92329.0,
+        "enseigne": "UGC CINE CITE",
+        "adrnumvoie": "8 PLACE DES 3 GARES",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95800.0,
+        "adrcommune": "CERGY LE HAUT",
+        "adr": "8 PLACE DES 3 GARES,95800 CERGY LE HAUT",
+        "lat": 49.048,
+        "lng": 2.011879
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.011879, 49.048]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CHAMPIGNY-SUR-MARNE",
+        "noauto": 97431.0,
+        "enseigne": "STUDIO 66",
+        "adrnumvoie": "66 RUE JEAN JAURES",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94500.0,
+        "adrcommune": "CHAMPIGNY SUR MARNE",
+        "adr": "66 RUE JEAN JAURES,94500 CHAMPIGNY SUR MARNE",
+        "lat": 48.8145039,
+        "lng": 2.5081992
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5081992, 48.8145039]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CHATILLON",
+        "noauto": 106031.0,
+        "enseigne": "CINEMA",
+        "adrnumvoie": "7BIS RUE DE LA MAIRIE",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92320.0,
+        "adrcommune": "CHATILLON",
+        "adr": "7BIS RUE DE LA MAIRIE,92320 CHATILLON",
+        "lat": 48.8004541,
+        "lng": 2.2887769
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2887769, 48.8004541]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CHENNEVIERES-SUR-MARNE",
+        "noauto": 109524.0,
+        "enseigne": "LE THEATRE",
+        "adrnumvoie": "11 AV DU MARECHAL LECLERC",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94430.0,
+        "adrcommune": "CHENNEVIERES SUR MARNE",
+        "adr": "11 AV DU MARECHAL LECLERC,94430 CHENNEVIERES SUR MARNE",
+        "lat": 48.7962718,
+        "lng": 2.5335052
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5335052, 48.7962718]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CHILLY-MAZARIN",
+        "noauto": 111583.0,
+        "enseigne": "FRANCOIS TRUFFAUT",
+        "adrnumvoie": "2 RUE DE L ECOLE",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91380.0,
+        "adrcommune": "CHILLY MAZARIN",
+        "adr": "2 RUE DE L ECOLE,91380 CHILLY MAZARIN",
+        "lat": 48.7031602,
+        "lng": 2.315214
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.315214, 48.7031602]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "CLAMART",
+        "noauto": 113523.0,
+        "enseigne": "CINEMA JEANNE MOREAU (EX-CENTRE CULTUREL JEAN ARP)",
+        "adrnumvoie": "22 RUE PAUL VAILLANT COUTURIER",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92140.0,
+        "adrcommune": "CLAMART",
+        "adr": "22 RUE PAUL VAILLANT COUTURIER,92140 CLAMART",
+        "lat": 48.8024755,
+        "lng": 2.2637817
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2637817, 48.8024755]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "COULOMMIERS",
+        "noauto": 123373.0,
+        "enseigne": "HEMISPHERE THEATER",
+        "adrnumvoie": "23 RUE MARCEL CLAVIER",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77120.0,
+        "adrcommune": "COULOMMIERS",
+        "adr": "23 RUE MARCEL CLAVIER,77120 COULOMMIERS",
+        "lat": 48.8087987,
+        "lng": 3.0850623
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.0850623, 48.8087987]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "DOMONT",
+        "noauto": 140521.0,
+        "enseigne": "ESPACE ERMITAGE",
+        "adrnumvoie": "ALLEE STE THERESE",
+        "adrcompleme": null,
+        "dep": 95.0,
+        "adrcdpostal": 95000.0,
+        "adrcommune": "DOMONT",
+        "adr": "ALLEE STE THERESE,95000 DOMONT",
+        "lat": 49.0298624,
+        "lng": 2.3334065
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3334065, 49.0298624]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "DRANCY",
+        "noauto": 142752.0,
+        "enseigne": "ESPACE CULTUREL DU PARC",
+        "adrnumvoie": "PLACE MAURICE NILES",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93700.0,
+        "adrcommune": "DRANCY",
+        "adr": "PLACE MAURICE NILES,93700 DRANCY",
+        "lat": 48.9271598,
+        "lng": 2.4383298
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4383298, 48.9271598]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "DRAVEIL",
+        "noauto": 142831.0,
+        "enseigne": "ORANGERIE",
+        "adrnumvoie": "117 AV HENRI BARBUSSE",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91210.0,
+        "adrcommune": "DRAVEIL",
+        "adr": "117 AV HENRI BARBUSSE,91210 DRAVEIL",
+        "lat": 48.6868102,
+        "lng": 2.408929
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.408929, 48.6868102]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "EPINAY-SUR-SEINE",
+        "noauto": 148324.0,
+        "enseigne": "MEGA CGR",
+        "adrnumvoie": "5 AVENUE DU MARECHAL  JOFFRE",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93800.0,
+        "adrcommune": "EPINAY SUR SEINE",
+        "adr": "5 AVENUE DU MARECHAL  JOFFRE,93800 EPINAY SUR SEINE",
+        "lat": 48.957848,
+        "lng": 2.302651
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.302651, 48.957848]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "ETAMPES",
+        "noauto": 152882.0,
+        "enseigne": "LA ROTONDE A",
+        "adrnumvoie": "102 RUE SAINT JACQUES",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91150.0,
+        "adrcommune": "ETAMPES",
+        "adr": "102 RUE SAINT JACQUES,91150 ETAMPES",
+        "lat": 48.433616,
+        "lng": 2.1557982
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1557982, 48.433616]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "FONTENAY-AUX-ROSES",
+        "noauto": 163962.0,
+        "enseigne": "LE SCARRON",
+        "adrnumvoie": "8 AV. JEANNE ET MAURICE DOLIVET",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92260.0,
+        "adrcommune": "FONTENAY AUX ROSES",
+        "adr": "8 AV. JEANNE ET MAURICE DOLIVET,92260 FONTENAY AUX ROSES",
+        "lat": 48.7915604,
+        "lng": 2.2897839
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2897839, 48.7915604]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "FONTENAY-SOUS-BOIS",
+        "noauto": 164112.0,
+        "enseigne": "LE KOSMOS",
+        "adrnumvoie": "243TER AVENUE DE LA REPUBLIQUE",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94120.0,
+        "adrcommune": "FONTENAY SOUS BOIS",
+        "adr": "243TER AVENUE DE LA REPUBLIQUE,94120 FONTENAY SOUS BOIS",
+        "lat": 48.8526992,
+        "lng": 2.4672357
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4672357, 48.8526992]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "IVRY-SUR-SEINE",
+        "noauto": 202551.0,
+        "enseigne": "LUXY",
+        "adrnumvoie": "77 AV GEORGES GOSNAT",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94200.0,
+        "adrcommune": "IVRY SUR SEINE",
+        "adr": "77 AV GEORGES GOSNAT,94200 IVRY SUR SEINE",
+        "lat": 48.8135957,
+        "lng": 2.3890947
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3890947, 48.8135957]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LIMEIL-BREVANNES",
+        "noauto": 228122.0,
+        "enseigne": "ATELIER BARBARA (EX-ANATOLE FRANCE)",
+        "adrnumvoie": "22-24 RUE ALSACE LORRAINE",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94456.0,
+        "adrcommune": "LIMEIL-BREVANNES",
+        "adr": "22-24 RUE ALSACE LORRAINE,94456 LIMEIL-BREVANNES",
+        "lat": 48.7533516,
+        "lng": 2.4884847
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4884847, 48.7533516]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MANTES-LA-JOLIE",
+        "noauto": 244700.0,
+        "enseigne": "MEGA CGR",
+        "adrnumvoie": "PLACE HENRI DUNANT",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78200.0,
+        "adrcommune": "MANTES LA JOLIE",
+        "adr": "PLACE HENRI DUNANT,78200 MANTES LA JOLIE",
+        "lat": 48.9884339,
+        "lng": 1.7115089
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.7115089, 48.9884339]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MANTES-LA-JOLIE",
+        "noauto": 244715.0,
+        "enseigne": "LE CHAPLIN",
+        "adrnumvoie": "PLACE MENDES FRANCE",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78200.0,
+        "adrcommune": "MANTES LA JOLIE",
+        "adr": "PLACE MENDES FRANCE,78200 MANTES LA JOLIE",
+        "lat": 48.969329,
+        "lng": 1.686251
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.686251, 48.969329]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MARCOUSSIS",
+        "noauto": 246432.0,
+        "enseigne": "ATMOSPHERE",
+        "adrnumvoie": "PARC DES CELESTINS",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91460.0,
+        "adrcommune": "MARCOUSSIS",
+        "adr": "PARC DES CELESTINS,91460 MARCOUSSIS",
+        "lat": 48.642446,
+        "lng": 2.2298809
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2298809, 48.642446]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MAULE",
+        "noauto": 252712.0,
+        "enseigne": "LES 2 SCENES",
+        "adrnumvoie": "PLACE HENRI DUNANT",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78580.0,
+        "adrcommune": "MAULE",
+        "adr": "PLACE HENRI DUNANT,78580 MAULE",
+        "lat": 48.909203,
+        "lng": 1.849405
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.849405, 48.909203]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MEUDON",
+        "noauto": 260903.0,
+        "enseigne": "CENTRE D ART ET DE CULTURE",
+        "adrnumvoie": "15 BOULEVARD DES NATIONS-UNIES",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92190.0,
+        "adrcommune": "MEUDON",
+        "adr": "15 BOULEVARD DES NATIONS-UNIES,92190 MEUDON",
+        "lat": 48.8139651,
+        "lng": 2.2354575
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2354575, 48.8139651]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MONTGERON",
+        "noauto": 272392.0,
+        "enseigne": "LE CYRANO",
+        "adrnumvoie": "114 AVENUE DE LA REPUBLIQUE",
+        "adrcompleme": null,
+        "dep": 91.0,
+        "adrcdpostal": 91230.0,
+        "adrcommune": "MONTGERON",
+        "adr": "114 AVENUE DE LA REPUBLIQUE,91230 MONTGERON",
+        "lat": 48.7037653,
+        "lng": 2.4610458
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4610458, 48.7037653]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "NANGIS",
+        "noauto": 284362.0,
+        "enseigne": "LA BERGERIE",
+        "adrnumvoie": "COUR EMILE ZOLA",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77380.0,
+        "adrcommune": "NANGIS",
+        "adr": "COUR EMILE ZOLA,77380 NANGIS",
+        "lat": 48.5549686,
+        "lng": 3.01357
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.01357, 48.5549686]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "NANTERRE",
+        "noauto": 284490.0,
+        "enseigne": "LES LUMIERES",
+        "adrnumvoie": "49 RUE MAURICE THOREZ",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92000.0,
+        "adrcommune": "NANTERRE",
+        "adr": "49 RUE MAURICE THOREZ,92000 NANTERRE",
+        "lat": 48.8925807,
+        "lng": 2.19561
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.19561, 48.8925807]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "NEUILLY-SUR-SEINE",
+        "noauto": 288151.0,
+        "enseigne": "LE VILLAGE I",
+        "adrnumvoie": "4 RUE DE CHEZY",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92200.0,
+        "adrcommune": "NEUILLY SUR SEINE",
+        "adr": "4 RUE DE CHEZY,92200 NEUILLY SUR SEINE",
+        "lat": 48.8853372,
+        "lng": 2.2682631
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2682631, 48.8853372]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LES PAVILLONS-SOUS-BOIS",
+        "noauto": 305402.0,
+        "enseigne": "ESPACE DES ARTS",
+        "adrnumvoie": "PLACE CHARLES DE GAULLE",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93320.0,
+        "adrcommune": "LES PAVILLONS SOUS BOIS",
+        "adr": "PLACE CHARLES DE GAULLE,93320 LES PAVILLONS SOUS BOIS",
+        "lat": 48.901269,
+        "lng": 2.477685
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.477685, 48.901269]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LE PERREUX-SUR-MARNE",
+        "noauto": 307692.0,
+        "enseigne": "CENTRE DES BORDS DE MARNE",
+        "adrnumvoie": "2 RUE DE LA PRAIRIE",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94170.0,
+        "adrcommune": "LE PERREUX SUR MARNE",
+        "adr": "2 RUE DE LA PRAIRIE,94170 LE PERREUX SUR MARNE",
+        "lat": 48.8469116,
+        "lng": 2.5090468
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5090468, 48.8469116]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "LE PLESSIS-TREVISE",
+        "noauto": 314451.0,
+        "enseigne": "ESPACE PAUL VALERY",
+        "adrnumvoie": "72 ET 74 AVENUE ARDOUIN",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94420.0,
+        "adrcommune": "LE PLESSIS TREVISE",
+        "adr": "72 ET 74 AVENUE ARDOUIN,94420 LE PLESSIS TREVISE",
+        "lat": 48.8055782,
+        "lng": 2.5779261
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.5779261, 48.8055782]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "POISSY",
+        "noauto": 317291.0,
+        "enseigne": "C 2 L",
+        "adrnumvoie": "18 RUE CHARLES DE GAULLE",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78300.0,
+        "adrcommune": "POISSY",
+        "adr": "18 RUE CHARLES DE GAULLE,78300 POISSY",
+        "lat": 48.967157,
+        "lng": 2.0668056
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0668056, 48.967157]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "RUEIL-MALMAISON",
+        "noauto": 347175.0,
+        "enseigne": "ARIEL HAUTS DE RUEIL",
+        "adrnumvoie": "59 AVENUE DE FOUILLEUSE",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92500.0,
+        "adrcommune": "RUEIL-MALMAISON",
+        "adr": "59 AVENUE DE FOUILLEUSE,92500 RUEIL-MALMAISON",
+        "lat": 48.8626365,
+        "lng": 2.1945803
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.1945803, 48.8626365]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SURESNES",
+        "noauto": 370411.0,
+        "enseigne": "LE CAPITOLE",
+        "adrnumvoie": "3 RUE LEDRU ROLLIN",
+        "adrcompleme": null,
+        "dep": 92.0,
+        "adrcdpostal": 92150.0,
+        "adrcommune": "SURESNES",
+        "adr": "3 RUE LEDRU ROLLIN,92150 SURESNES",
+        "lat": 48.8703286,
+        "lng": 2.2286366
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2286366, 48.8703286]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINT-DENIS",
+        "noauto": 381912.0,
+        "enseigne": "ECRAN",
+        "adrnumvoie": "14 PASSAGE DE L ACQUEDUC",
+        "adrcompleme": null,
+        "dep": 93.0,
+        "adrcdpostal": 93200.0,
+        "adrcommune": "SAINT DENIS",
+        "adr": "14 PASSAGE DE L ACQUEDUC,93200 SAINT DENIS",
+        "lat": 48.9368263,
+        "lng": 2.3590614
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3590614, 48.9368263]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "SAINT-MAUR-DES-FOSSES",
+        "noauto": 404603.0,
+        "enseigne": "LE LIDO",
+        "adrnumvoie": "70 AV DE LA REPUBLIQUE",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94100.0,
+        "adrcommune": "SAINT MAUR DES FOSSES",
+        "adr": "70 AV DE LA REPUBLIQUE,94100 SAINT MAUR DES FOSSES",
+        "lat": 48.798962,
+        "lng": 2.4858453
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4858453, 48.798962]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VAUX-LE-PENIL",
+        "noauto": 444791.0,
+        "enseigne": "LA GRANGE",
+        "adrnumvoie": "RUE AMBROISE PRO",
+        "adrcompleme": null,
+        "dep": 77.0,
+        "adrcdpostal": 77000.0,
+        "adrcommune": "VAUX LE PENIL",
+        "adr": "RUE AMBROISE PRO,77000 VAUX LE PENIL",
+        "lat": 48.5279055,
+        "lng": 2.6896132
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.6896132, 48.5279055]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VERNEUIL-SUR-SEINE",
+        "noauto": 448802.0,
+        "enseigne": "ESPACE MAURICE BEJART",
+        "adrnumvoie": "3 BLVD ANDRE MALRAUX",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78480.0,
+        "adrcommune": "VERNEUIL SUR SEINE",
+        "adr": "3 BLVD ANDRE MALRAUX,78480 VERNEUIL SUR SEINE",
+        "lat": 48.9788104,
+        "lng": 1.975654
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.975654, 48.9788104]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "VILLENEUVE-SAINT-GEORGES",
+        "noauto": 458232.0,
+        "enseigne": "SUD EST THEATRE",
+        "adrnumvoie": "21 AVENUE CARNOT",
+        "adrcompleme": null,
+        "dep": 94.0,
+        "adrcdpostal": 94190.0,
+        "adrcommune": "VILLENEUVE SAINT GEORGES",
+        "adr": "21 AVENUE CARNOT,94190 VILLENEUVE SAINT GEORGES",
+        "lat": 48.7330467,
+        "lng": 2.4492565
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4492565, 48.7330467]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ville": "MONTIGNY-LE-BRETONNEUX",
+        "noauto": 720400.0,
+        "enseigne": "UGC CINE CITE SQY OUEST",
+        "adrnumvoie": "1 AV. DE LA SOURCE DE LA BIEVRE",
+        "adrcompleme": null,
+        "dep": 78.0,
+        "adrcdpostal": 78180.0,
+        "adrcommune": "MONTIGNY LE BRETONNEUX",
+        "adr": "1 AV. DE LA SOURCE DE LA BIEVRE,78180 MONTIGNY LE BRETONNEUX",
+        "lat": 48.783792,
+        "lng": 2.0403955
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.0403955, 48.783792]
+      }
+    }
+  ]
+}
