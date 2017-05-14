@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="stylebof.css">
+  <link rel="stylesheet" type="text/css" href="sources/stylebof.css">
 </head>
 
 <body>
@@ -12,12 +12,11 @@
   <div id="info-box"></div>
 
   <script type="text/javascript">
-
     // initialisation des variables
     var map;
     var cheminJson = "sources/cinema.geojson";
     var cheminIcon = "sources/camera_icon.png";
-    var markers = [];
+    var cinemas = [];
     var mapOptions = {  
       zoom: 10,
       //minZoom: 11,
@@ -62,7 +61,7 @@
           // création de l'objet latlng pour la position du Marker
           var latLng = new google.maps.LatLng(cinema.properties.lat, cinema.properties.lng);
           // création du Marker
-          markers[index] = new google.maps.Marker({
+          marker = new google.maps.Marker({
             position: {
               lat: latLng.lat(),
               lng: latLng.lng()
@@ -72,19 +71,28 @@
             title: cinema.properties.enseigne
           });
 
-          var content = "<p>Nom: " + cinema.properties.enseigne + "</p>" +
-            "<p>Adresse: " + cinema.properties.adrnumvoie + "</p>" +
-            "<p>Ville: " + cinema.properties.ville + "</p>";
+          cinemas[index] = {
+            point: marker,
+            nom: cinema.properties.enseigne,
+            ville: cinema.properties.ville,
+            rue: cinema.properties.adrnumvoie,
+            complementAdresse: cinema.properties.adrcompleme,
+            numDepartement: cinema.properties.dep,
+            codePostal: cinema.properties.adrcdpostal,
+            nomCommune: cinema.properties.adrcommune,
+            adresseComplete: cinema.properties.adr
+          };
 
           // ajout des listeners pour le marker
-          addListenerToMmarker(markers[index], content);
+          addListenerToCinema(cinemas[index]);
 
         }); // fin de la création des markers
 
       }); // fin du paçage du json
 
-      function addListenerToMmarker(marker, text) {
+      function addListenerToCinema(cinema) {
         // affichage du nom du marker dans l'info-box
+        var marker = cinema.point;
         marker.addListener('mouseover', function() {
           document.getElementById('info-box').textContent =  marker.getTitle();
         });
@@ -96,13 +104,20 @@
         marker.addListener('click', function() {
           map.panTo(new google.maps.LatLng(marker.getPosition().lat(), marker.getPosition().lng())); // change le centre de la map
           smoothZoom(map, 19, map.getZoom()); // commenter juste pour mon chromebook qui à du mal mais tu peux décommenter pour faire plus style et commenter la ligne en dessous
+          var form = getFormFromCinema(cinema);
           //map.setZoom(16);
-          fenetreInfo.setContent(text);
+          fenetreInfo.setContent(form);
           fenetreInfo.open(map, marker);
         });
       }
     }
 
+    // fonction de gestion des formulaire dans les infowindow
+    function getFormFromCinema(cinema) {
+      return "<p>Nom: " + cinema.nom + "</p>" +
+        "<p>Adresse: " + cinema.rue + "</p>" +
+        "<p>Ville: " + cinema.ville + "</p>";
+    }
 
     // fonction pour gérer le zoom sur les markers
     function smoothZoom(map, max, cnt) {
@@ -121,6 +136,8 @@
   </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADQEU2wl1189-XtBtihLzSy4OnpKS7yY0&callback=initMap"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <div>Icons made by <a href="http://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  <div>Icons made by <a href="http://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+      title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 </body>
+
 </html>
