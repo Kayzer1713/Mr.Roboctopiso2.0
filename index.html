@@ -56,6 +56,7 @@
           });
 
           cinemas[index] = {
+            id: index,
             point: marker,
             nom: cinema.properties.enseigne,
             ville: cinema.properties.ville,
@@ -99,54 +100,53 @@
           map.panTo(new google.maps.LatLng(marker.getPosition().lat(), marker.getPosition().lng())); // change le centre de la map
           smoothZoom(map, 19, map.getZoom());
           //map.setZoom(16);
-          var content = "<p>Nom: <div class='modifiable'>" + cinema.nom + "</div></p>" +
-            "<p>Adresse: <div class='modifiable'>" + cinema.rue + "</div></p>" +
-            "<p>Ville: <div class='modifiable'>" + cinema.ville + "</div></p>";
+          var content =
+            "<div class='modifiable'>" +
+            "<p>" + cinema.nom + "</p>" +
+            "<p>" + cinema.rue + "</p>" +
+            "<p>" + cinema.ville + "</p>" +
+            "<img src='sources/edit.png'></img></div>" +
+            "<form>" +
+            "<p>Nom cinéma: <input type='text' name='nomCine' value=" + cinema.nom + "></input></p>" +
+            "<p>Nom de la rue: <input type='text' name='rueCine' value=" + cinema.rue + "></input></p>" +
+            "<p>Ville du cinéma: <input type='text' name='villeCine' value=" + cinema.ville + "></input></p>" +
+            "<p><input type='submit' value='Valider'></input></p>" +
+            "</form>";
           fenetreInfo.setContent(content);
           fenetreInfo.open(map, marker);
-          formIntoInfoWindow();
+          formIntoInfoWindow(cinema);
         });
       }
     }
 
 
     // fonction de gestion des formulaire dans les infowindow
-    function formIntoInfoWindow() {
-      $('div.modifiable').wrapInner("<span></span>");
-      $('div.modifiable').append("<img src=\"sources/edit.png\"></img>");
-      $('div.modifiable').wrapInner("<div></div>");
-      $('div.modifiable').append(
-        "<form>" +
-        "<input type='text' value= \"\"></input>" +
-        "<input type='submit' value='Valider'></input>" +
-        "</form>");
-
+    function formIntoInfoWindow(cinema) {
       $("*>div>img").click(function() {
-        $div = $(this).parent();
-        $span = $div.children("span:first");
-        $val = $span.text();
-        $form = $div.parent().children("form:first");
-        $input = $form.children("input[type='text']:first");
-        $input.val($val);
-        $form.show();
-        $div.hide();
-      });
-
-      $("*>form>input[type='submit']").click(function() {
-        $form = $(this).parent();
-        $id = $form.parent().attr('id');
-        $input = $form.children("input[type='text']:first");
-        $val = $input.val();
-        $div = $form.parent().children("div:first");
-        $span = $div.children("span:first");
-        $span.text($val);
-        $form.hide();
-        $div.show();
-        console.log("update table TABLE value='" + $val + "' where id='" + $id + "';")
-        return false;
+        $("form").show(200);
+        $("div.modifiable").hide(200);
       });
       $("div>form").hide();
+      // gestion de l'envoi
+      $("form").click(function(){
+        event.preventDefault();
+        $("form").hide(300);
+        $("div.modifiable").show(300);
+        cinema.nom = $("input[name=nomCine]").val();
+        cinema.rue = $("input[name=nomCine]").val();
+        cinema.ville = $("input[name=nomCine]").val();
+        console.log($("input[name=nomCine]").val());
+        console.log("tamere");
+        //sauvegarde(id, cinema);
+      });
+      // $("*>form>input[type='submit']").click(function() {
+      //   console.log("dans le form input'" + $val);
+      // });
     }
+
+    // fucntion sauvegarde(id, cinema){
+    //   // todo
+    // }
 
     // fonction pour gérer le zoom sur les markers
     function smoothZoom(map, max, cnt) {
