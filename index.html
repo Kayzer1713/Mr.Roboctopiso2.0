@@ -16,12 +16,12 @@
 /*
 Edit msg:
 derniere maj;
--les marker ne s'afffiche pas sur la map de paris pour des raisons inconnues
+-les marker ne s'affiche pas sur la map de paris pour des raisons inconnues
 bug à corriger à deux dimanche matin
 -les test se font donc sur les deux markers en australie que j'ai crée manuellement
-tu peux changer les lattitudes et longitude pour les mettres sur
+tu peux changer les latitudes et longitude pour les mettre sur
 Paris si tu veux ce sera plus simple pour travailler sans avoir à changer à chaque fois le centre de la map
--les formulaires sont pas finis j'ai eu le temps de faire que quelque test (voir exo 15 des correction jquery sur le cour de tw3)
+-les formulaires sont pas finis j'ai eu le temps de faire que quelques tests (voir exo 15 des correction jquery sur le cour de tw3)
 -aucun pb pour ajouter des données à priori je sais comment on va faire c'est très simple
 -graphe et stats a faire dimanche aprem/soir
 - no panic my friend cyuka blyat rush B ez win
@@ -29,20 +29,16 @@ Paris si tu veux ce sera plus simple pour travailler sans avoir à changer à ch
 
     // initialisation des variables
     var map;
-    var cheminJson = "https://api.myjson.com/bins/brvit";
+    var cheminJson = "cinema.geojson";
     var cheminIcon = "sources/film-reel.png";
     var markers = [];
     var mapOptions = {  
       zoom: 10,
-      minZoom: 11,
+      //minZoom: 11,
       center: {
-        lat: -25.363882,
-        lng: 131.044922
+        lat: 48.866667,
+        lng: 2.333333
       },
-      // center: {
-      //   lat: 48.866667,
-      //   lng: 2.333333
-      // },
       disableDefaultUI: true
     };
 
@@ -58,39 +54,27 @@ Paris si tu veux ce sera plus simple pour travailler sans avoir à changer à ch
 
       var fenetreInfo = new google.maps.InfoWindow();
 
-      var testMarker = new google.maps.Marker({
-        position: {
-          lat: -25.363882,
-          lng: 131.044922
-        },
-        icon: cheminIcon,
-        title: "bifleMole!",
-        map: map
-      });
+      // var testMarker = new google.maps.Marker({
+      //   position: {
+      //     lat: -25.363882,
+      //     lng: 131.044922
+      //   },
+      //   icon: cheminIcon,
+      //   title: "bifleMole!",
+      //   map: map
+      // });
+      //
+      // addListenerToMmarker(testMarker, "<form>" +
+      //   "<input type=\"text\" value=\"blsdfjsq\"></input>" +
+      //   "<input type=\"submit\" value=\"Valider\"</input>" +
+      //   "</form>");
 
-      var testMarker2 = new google.maps.Marker({
-        position: {
-          lat: -25.383882,
-          lng: 131.064922
-        },
-        icon: cheminIcon,
-        title: "kamoulox!",
-        map: map
-      });
-      addListenerToMmarker(testMarker, "<form>" +
-        "<input type=\"text\" value=\"blsdfjsq\"></input>" +
-        "<input type=\"submit\" value=\"Valider\"</input>" +
-        "</form>");
-      addListenerToMmarker(testMarker2, "<form>" +
-        "<input type=\"text\" value=\"blsdfjsq\"></input>" +
-        "<input type=\"submit\" value=\"Valider\"</input>" +
-        "</form>");
       // lecture et parçage du json
       $.getJSON(cheminJson, function(data) {
         // création de tout les markers depuis le json
         $.each(data.features, function(index, cinema) {
           // création de l'objet latlng pour la position du Marker
-          var latLng = new google.maps.LatLng(cinema.properties.lat, cinema.geometry.lng);
+          var latLng = new google.maps.LatLng(cinema.properties.lat, cinema.properties.lng);
           // création du Marker
           markers[index] = new google.maps.Marker({
             position: {
@@ -125,8 +109,8 @@ Paris si tu veux ce sera plus simple pour travailler sans avoir à changer à ch
         // affichage de la fenetreInfo
         marker.addListener('click', function() {
           map.panTo(new google.maps.LatLng(marker.getPosition().lat(), marker.getPosition().lng())); // change le centre de la map
-          //smoothZoom(map, 16, map.getZoom()); // commenter juste pour mon chromebook qui à du mal mais tu peux décommenter pour faire plus style et commenter la ligne en dessous
-          map.setZoom(16);
+          smoothZoom(map, 16, map.getZoom()); // commenter juste pour mon chromebook qui à du mal mais tu peux décommenter pour faire plus style et commenter la ligne en dessous
+          //map.setZoom(16);
           fenetreInfo.setContent(text);
           fenetreInfo.open(map, marker);
         });
@@ -145,7 +129,7 @@ Paris si tu veux ce sera plus simple pour travailler sans avoir à changer à ch
         });
         setTimeout(function() {
           map.setZoom(cnt)
-        }, 20);
+        }, 80);
       }
     }
   </script>
