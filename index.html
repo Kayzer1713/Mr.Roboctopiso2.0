@@ -38,6 +38,7 @@
 
       var fenetreInfo = new google.maps.InfoWindow();
 
+
       // lecture et parçage du json
       $.getJSON(cheminJson, function(data) {
         // création de tout les markers depuis le json
@@ -107,9 +108,9 @@
             "<p>" + cinema.ville + "</p>" +
             "<img src='sources/edit.png'></img></div>" +
             "<form>" +
-            "<p>Nom cinéma: <input type='text' name='nomCine' value=" + cinema.nom + "></input></p>" +
-            "<p>Nom de la rue: <input type='text' name='rueCine' value=" + cinema.rue + "></input></p>" +
-            "<p>Ville du cinéma: <input type='text' name='villeCine' value=" + cinema.ville + "></input></p>" +
+            "<p>Nom cinéma: <input type='text' name='nomCine' value='" + cinema.nom + "'></input></p>" +
+            "<p>Rue: <input type='text' name='rueCine' value='" + cinema.rue + "'></input></p>" +
+            "<p>Ville: <input type='text' name='villeCine' value='" + cinema.ville + "'></input></p>" +
             "<p><input type='submit' value='Valider'></input></p>" +
             "</form>";
           fenetreInfo.setContent(content);
@@ -118,7 +119,6 @@
         });
       }
     }
-
 
     // fonction de gestion des formulaire dans les infowindow
     function formIntoInfoWindow(cinema) {
@@ -130,18 +130,15 @@
       // gestion de l'envoi
       $("form").click(function(){
         event.preventDefault();
+      });
+      $("input[value='Valider']").click(function(){
         $("form").hide(300);
         $("div.modifiable").show(300);
         cinema.nom = $("input[name=nomCine]").val();
-        cinema.rue = $("input[name=nomCine]").val();
-        cinema.ville = $("input[name=nomCine]").val();
-        console.log($("input[name=nomCine]").val());
-        console.log("tamere");
-        //sauvegarde(id, cinema);
+        cinema.rue = $("input[name=rueCine]").val();
+        cinema.ville = $("input[name=villeCine]").val();
       });
-      // $("*>form>input[type='submit']").click(function() {
-      //   console.log("dans le form input'" + $val);
-      // });
+        //sauvegarde(id, cinema);
     }
 
     // fucntion sauvegarde(id, cinema){
