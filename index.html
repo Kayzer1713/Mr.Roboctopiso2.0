@@ -144,9 +144,7 @@
 
 
 
-
-
-    function villeData(){
+    function villeData(){ //crée le tableau pour le graphe
       var tab = [{label: cinemas[0].ville, value: 1, color:'#3366CC'}];
 
       var j;
@@ -163,7 +161,7 @@
         }
       }
 
-      for (var k = 0; k < tab.length; k++){
+      for (var k = 0; k < tab.length; k++){//retire les villes n'ayant quu'un cinéma pour une categorie 'autres'
         var cpt = 0;
         if(tab[k].value == 1){
           cpt ++;
@@ -174,7 +172,7 @@
       return tab;
     }
 
-    function getRandomColor() {
+    function getRandomColor() {//pour obtenir les couleurs pour chaque ville
       var letters = '0123456789ABCDEF';
       var color = '#';
       for (var i = 0; i < 6; i++ ) {
@@ -183,17 +181,6 @@
       return color;
     }
 
-    function changeData(){
-      var a = randomData();
-      console.log(a[1]);
-    	Donut3D.transition("salesDonut", a, 130, 100, 30, 0.4);
-    	Donut3D.transition("quotesDonut", randomData(), 130, 100, 30, 0);
-    }
-
-    function randomData(){
-    	return salesData.map(function(d){
-    		return {label:d.label, value:1000*Math.random(), color:d.color};});
-    }
   </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADQEU2wl1189-XtBtihLzSy4OnpKS7yY0&callback=initMap"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
