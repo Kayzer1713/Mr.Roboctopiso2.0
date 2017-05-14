@@ -74,10 +74,13 @@
         }); // fin de la création des markers
 
         //pour le graphe
-        var svg = d3.select("body").append("svg").attr("width", 700).attr("height", 300);
+        var svg = d3.select("body").append("svg").attr("width",700).attr("height",300);
 
-        svg.append("g").attr("id", "salesDonut");
-        Donut3D.draw("salesDonut", villeData(), 150, 150, 130, 100, 30, 0.4);
+        svg.append("g").attr("id","villeDonut");
+        svg.append("g").attr("id","depDonut");
+
+        Donut3D.draw("villeDonut", villeData(), 450, 150, 130, 100, 30, 0);
+        Donut3D.draw("depDonut", depData(), 150, 150, 130, 100, 30, 0.4);
       }); // fin du paçage du json
 
       // listener pour fermet l'infowindow au click extérieur
@@ -163,45 +166,80 @@
       }
     }
 
-    //crée le tableau pour le graphe
-    function villeData() {
-      var tab = [{
-        label: cinemas[0].ville,
-        value: 1,
-        color: '#3366CC'
-      }];
+    function villeData(){ //crée le tableau pour le graphe
+      var tab = [{label: cinemas[0].ville, value: 1}];
 
       var j;
-      for (var i = 1; i < cinemas.length; i++) {
+      for (var i = 1; i < cinemas.length; i++){
         j = 0
         var v = cinemas[i].ville;
-        while (j < tab.length && v != tab[j].label) {
+        while (j < tab.length && v != tab[j].label){
           j++;
         }
-        if (j == tab.length) {
-          tab[j] = ({
-            label: v,
-            value: 1,
-            color: getRandomColor()
-          });
-        } else {
+        if (j==tab.length){
+          tab[j]=({label: v, value: 1});
+        }else{
           tab[j].value += 1;
         }
       }
 
-      for (var k = 0; k < tab.length; k++) { //retire les villes n'ayant quu'un cinéma pour une categorie 'autres'
-        var cpt = 0;
-        if (tab[k].value == 1) {
-          cpt++;
-          tab[k].value = 0;
+      var l = [0,0,0];
+      for (var k = 0; k < tab.length; k++){//retire les villes n'ayant qu'un cinéma pour une categorie 'autres'
+        if(tab[k].value == 1){
+          l[0]++;
+        }else if (tab[k].value < 10) {
+          l[1]++;
+        }else {
+          l[2]++;
         }
       }
-      tab[tab.length] = {
-        label: 'autres',
-        value: cpt,
-        color: getRandomColor()
-      };
-      return tab;
+      //tab[tab.length] = {label: 'autres', value: cpt, color: getRandomColor()};
+      var ll = [{label: '1 cinéma', value: l[0], color: 'red'},
+                {label: '2 à 10 cinémas', value: l[1], color: 'blue'},
+                {label: '+ de 10 cinémas', value: l[2], color: 'green'}];
+
+      return ll;
+    }
+
+    function depData(){ //crée le tableau pour le graphe
+      var tab = [{label: cinemas[0].numDepartement, value: 1, color:'#3366CC'}];
+
+      var j;
+      for (var i = 1; i < cinemas.length; i++){
+        j = 0;
+        var v = cinemas[i].numDepartement;
+        while (j < tab.length && v != tab[j].label){
+          j++;
+        }
+        if (j==tab.length){
+          tab[j]=({label: v, value: 1, color: getRandomColor()});
+        }else{
+          tab[j].value += 1;
+        }
+      }
+
+      return numToDep(tab);
+    }
+
+    function numToDep(liste){
+      var dico = [{num: 75, nom: 'Paris'}, //liste associant nom et numéro des départements d'Île-de-France
+                  {num: 77, nom: 'Seine-et-Marne'},
+                  {num: 78, nom: 'Yvelines'},
+                  {num: 91, nom: 'Essonne'},
+                  {num: 92, nom: 'Hauts-de-Seine'},
+                  {num: 93, nom: 'Saine-Saint-Denis'},
+                  {num: 94, nom: 'Val-de-Marne'},
+                  {num: 95, nom: 'Val-d\'Oise'}];
+
+      for (var i = 0; i < liste.length; i++){ //rajoute les noms des départements aux labels
+        for (var j = 0; j < dico.length; j++){
+          if (liste[i].label == dico[j].num){
+            liste[i].label = dico[j].nom + ' (' + liste[i].label +')';
+          }
+        }
+      }
+
+      return liste;
     }
 
     function getRandomColor() { //pour obtenir les couleurs pour chaque ville
