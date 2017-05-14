@@ -13,24 +13,10 @@
 
   <script type="text/javascript">
 
-/*
-Edit msg:
-derniere maj;
--les marker ne s'affiche pas sur la map de paris pour des raisons inconnues
-bug à corriger à deux dimanche matin
--les test se font donc sur les deux markers en australie que j'ai crée manuellement
-tu peux changer les latitudes et longitude pour les mettre sur
-Paris si tu veux ce sera plus simple pour travailler sans avoir à changer à chaque fois le centre de la map
--les formulaires sont pas finis j'ai eu le temps de faire que quelques tests (voir exo 15 des correction jquery sur le cour de tw3)
--aucun pb pour ajouter des données à priori je sais comment on va faire c'est très simple
--graphe et stats a faire dimanche aprem/soir
-- no panic my friend cyuka blyat rush B ez win
-*/
-
     // initialisation des variables
     var map;
-    var cheminJson = "cinema.geojson";
-    var cheminIcon = "sources/film-reel.png";
+    var cheminJson = "sources/cinema.geojson";
+    var cheminIcon = "sources/camera_icon.png";
     var markers = [];
     var mapOptions = {  
       zoom: 10,
@@ -109,7 +95,7 @@ Paris si tu veux ce sera plus simple pour travailler sans avoir à changer à ch
         // affichage de la fenetreInfo
         marker.addListener('click', function() {
           map.panTo(new google.maps.LatLng(marker.getPosition().lat(), marker.getPosition().lng())); // change le centre de la map
-          smoothZoom(map, 16, map.getZoom()); // commenter juste pour mon chromebook qui à du mal mais tu peux décommenter pour faire plus style et commenter la ligne en dessous
+          smoothZoom(map, 19, map.getZoom()); // commenter juste pour mon chromebook qui à du mal mais tu peux décommenter pour faire plus style et commenter la ligne en dessous
           //map.setZoom(16);
           fenetreInfo.setContent(text);
           fenetreInfo.open(map, marker);
@@ -135,6 +121,6 @@ Paris si tu veux ce sera plus simple pour travailler sans avoir à changer à ch
   </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADQEU2wl1189-XtBtihLzSy4OnpKS7yY0&callback=initMap"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <div>Icons made by <a href="http://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 </body>
-
 </html>
