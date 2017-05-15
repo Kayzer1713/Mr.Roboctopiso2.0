@@ -73,7 +73,6 @@
             corLng: cinema.corLng
           };
 
-          console.log(cinemas[index]);
           // ajout des listeners pour le marker
           addListenerToCinema(cinemas[index], marker);
 
@@ -122,13 +121,13 @@
             "</form>";
           fenetreInfo.setContent(content);
           fenetreInfo.open(map, marker);
-          formIntoInfoWindow(cinema);
+          formIntoInfoWindow(cinema, fenetreInfo);
         });
       }
     }
 
     // fonction de gestion des formulaire dans les infowindow
-    function formIntoInfoWindow(cinema) {
+    function formIntoInfoWindow(cinema, fenetreInfo) {
       $("*>div>img").click(function() {
         $("form").show(200);
         $("div.modifiable").hide(200);
@@ -144,6 +143,7 @@
         cinema.nom = $("input[name=nomCine]").val();
         cinema.rue = $("input[name=rueCine]").val();
         cinema.ville = $("input[name=villeCine]").val();
+        fenetreInfo.close();
       });
     }
 
