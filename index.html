@@ -15,7 +15,8 @@
   <div id="map"></div>
   <div id="info-box"></div>
   <button onclick="sauvegarde()">Sauvegarde</button>
-  <button onClick="afficheStats()">Afficher les statistiques</button>
+  <button id="affiche" onClick="afficheStats()">Afficher les statistiques</button>
+  <button id="cache" onClick="cacheStats()" hidden="true">Cacher les statistiques</button>
 
   <script type="text/javascript">
     // initialisation des variables
@@ -308,15 +309,28 @@
       return color;
     }
 
-    function afficheStats(){
+    function afficheStats(){//affiche les graphes
       //pour le graphe
       var svg = d3.select("body").append("svg").attr("width", 700).attr("height", 300);
 
       svg.append("g").attr("id", "villeDonut");
       svg.append("g").attr("id", "depDonut");
 
-      Donut3D.draw("villeDonut", villeData(), 450, 150, 130, 100, 30, 0);
+      Donut3D.draw("villeDonut", villeData(), 450, 150, 130, 100, 30, 0);//dessine les graphes
       Donut3D.draw("depDonut", depData(), 150, 150, 130, 100, 30, 0.4);
+      $("#villeDonut").show();
+      $("#depDonut").show();
+      $("#map").hide();
+      $("#affiche").hide();
+      $("#cache").show();
+    }
+
+    function cacheStats(){//cache les graphes
+      $("#villeDonut").hide();
+      $("#depDonut").hide();
+      $("#affiche").show();
+      $("#cache").hide();
+      $("#map").show();
     }
   </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADQEU2wl1189-XtBtihLzSy4OnpKS7yY0&callback=initMap"></script>
