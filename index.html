@@ -15,6 +15,7 @@
   <div id="map"></div>
   <div id="info-box"></div>
   <button onclick="sauvegarde()">Sauvegarde</button>
+  <button onClick="afficheStats()">Afficher les statistiques</button>
 
   <script type="text/javascript">
     // initialisation des variables
@@ -77,15 +78,6 @@
           addListenerToCinema(cinemas[index], marker);
 
         }); // fin de la création des markers
-
-        //pour le graphe
-        var svg = d3.select("body").append("svg").attr("width", 700).attr("height", 300);
-
-        svg.append("g").attr("id", "villeDonut");
-        svg.append("g").attr("id", "depDonut");
-
-        Donut3D.draw("villeDonut", villeData(), 450, 150, 130, 100, 30, 0);
-        Donut3D.draw("depDonut", depData(), 150, 150, 130, 100, 30, 0.4);
       }); // fin du paçage du json
 
       // listener pour fermet l'infowindow au click extérieur
@@ -314,6 +306,17 @@
         color += letters[Math.floor(Math.random() * 16)];
       }
       return color;
+    }
+
+    function afficheStats(){
+      //pour le graphe
+      var svg = d3.select("body").append("svg").attr("width", 700).attr("height", 300);
+
+      svg.append("g").attr("id", "villeDonut");
+      svg.append("g").attr("id", "depDonut");
+
+      Donut3D.draw("villeDonut", villeData(), 450, 150, 130, 100, 30, 0);
+      Donut3D.draw("depDonut", depData(), 150, 150, 130, 100, 30, 0.4);
     }
   </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADQEU2wl1189-XtBtihLzSy4OnpKS7yY0&callback=initMap"></script>
